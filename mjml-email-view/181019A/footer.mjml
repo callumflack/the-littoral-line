@@ -1,0 +1,10 @@
+<mj-section padding="25px 15px 30px">
+  <mj-column>
+    <mj-divider border-width="1px" border-color="#ddd" padding="25px 0px"></mj-divider>
+
+    <mj-text align="center" color="#999" font-family="Georgia, serif" font-size="15px" line-height="22px" padding="25px 0 0" >
+      ✺ The Littoral Line<br>An electronic letter about design, the web and attention from <a style="color:#999" href="http://twitter.com/callumflack/">Callum Flack</a>.<br><a style="color:#999" href="https://the-littoral-line.callumflack.design">Archives here.</a> You can <a style="color:#999" href="https://callumflack.design/the-littoral-line">subscribe here.</a>
+    </mj-text>
+
+ </mj-column>
+</mj-section>
