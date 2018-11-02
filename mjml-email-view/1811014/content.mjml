@@ -1,0 +1,37 @@
+
+
+
+
+<mj-image padding="25px 0" width="600px" src="assets/images/LL03-2x2.jpg"></mj-image>
+
+
+
+<mj-text align="left" color="#111" font-family="Georgia, serif" font-size="18px" line-height="27px" padding="0 0 6px">
+  <h2 style="font-size:20px;line-height:27px">Creativity and conversation</h2>
+  
+  <blockquote class="blockquote">
+    <p>The most productive tool for generating good ideas remains a circle of humans at a table, talking shop.<br>— Steve Johnson, Where Good Ideas Come From</p>
+  </blockquote>
+  
+  <p></p>
+
+</mj-text>
+
+
+
+<mj-text>
+  <h2 class="h2">Things inbetween</h2>
+
+  <p><b><a class="link" href="https://public.digital/2018/10/12/internet-era-ways-of-working/">Public Digital's internet-era ways of working.</a></b> Their definition of digital is spot on: “Applying the culture, processes, business models & technologies of the internet-era to respond to people’s raised expectations”. This is basically an updated version of the British Government's <a class="link" href="https://www.gov.uk/guidance/government-design-principles">Design Principles</a> by basically the same authors, just with poorer typography.</p>
+  
+</mj-text>
+
+
+
+<mj-text align="left" color="#111" font-family="Georgia, serif" font-size="18px" line-height="27px" padding="0 0 6px">
+  <h2 style="font-size:20px;line-height:27px">That's a wrap</h2>
+
+  <p>Keep in mind that when communications or products are executed well, <em>the delight they bring is more than useful.</em> To say otherwise would be post-rationalise your customer's very human behaviour.</p>
+  
+  <p>Yours in the name of Decision-making Creativity,<br>Callum</p>
+</mj-text>
