@@ -1,8 +1,7 @@
 {
   "name": "the-littoral-line",
-  "alias": [
-    "the-littoral-line.callumflack.design"
-  ],
+  "alias": ["the-littoral-line.callumflack.design"],
+  "version": 1,
   "env": {
     "NODE_ENV": "production"
   }

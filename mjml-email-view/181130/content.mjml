@@ -1,0 +1,49 @@
+
+
+
+
+<mj-image padding="25px 0" width="600px" src="assets/images/LL04-radiance-buzzing.jpg"></mj-image>
+
+<mj-image padding="25px 0" width="600px" src="assets/images/LL03-2x2.jpg"></mj-image>
+
+
+
+<mj-text align="left" color="#111" font-family="Georgia, serif" font-size="18px" line-height="27px" padding="0 0 6px">
+  <h2 style="font-size:20px;line-height:27px">Creativity and conversation</h2>
+  
+  <blockquote class="blockquote">
+    <p>The most productive tool for generating good ideas remains a circle of humans at a table, talking shop.<br>— Steve Johnson, Where Good Ideas Come From</p>
+  </blockquote>
+  
+  <p></p>
+
+</mj-text>
+
+
+
+<mj-text>
+  <h2 class="h2">Things inbetween</h2>
+  
+  <p><b><a class="link" href="https://marginalrevolution.com/">My internet home page is now Marginal Revolution.</a></b> A few weeks ago, I decided that instead of hitting Twitter every morning, I'd start at marginalrevolution.com instead. I figure I'd find some serendipity by looking where I don't usually look, and soak up some economic theory along the way. It's not like I hadn't read it before, but my morning rule has opened up a labyrinth of unfamiliar <em>interestingness</em>. The posts are <a class="link" href="https://marginalrevolution.com/marginalrevolution/2018/10/raising-status-chow-yun-fat.html">concise</a>, <a class="link" href="https://www.evernote.com/shard/s44/nl/4795781/5eae39e6-abff-42cb-8777-14725f8dd3f2/">funny</a> and <a class="link" href="https://marginalrevolution.com/marginalrevolution/2018/11/arent-millennials-buying-boats-boat-recession.html">wildly diverse</a>. In true Tyler speak, let me say <em>recommended</em>.</p>
+  
+  <blockquote class="blockquote">
+    <p>“Creating artificial suspense” is one of the killer apps of the internet.<br>— <a class="link" href="https://www.bloomberg.com/opinion/articles/2018-11-13/world-chess-championship-2018-is-made-for-the-internet">Tyler Cowen</p>
+  </blockquote>
+
+  <p><b><a class="link" href="https://github.com/alidcastano/rogue.js">Alid Castano is pretty switched on Javascript developer.</a></b> And yep, this is my friend Alid who kicked off today's conversation. I still use his Nuxtent module to write in markdown in my Nuxt.js projects. He's making a note-taking app. Keep an eye out for it.</p>
+    
+</mj-text>
+
+
+
+<mj-text align="left" color="#111" font-family="Georgia, serif" font-size="18px" line-height="27px" padding="0 0 6px">
+  <h2 style="font-size:20px;line-height:27px">That's a wrap</h2>
+  
+  <blockquote class="blockquote">
+    <p>What you have to do, do with play.<br>— Jospeh Campbell, The Art of Living</p>
+  </blockquote>
+
+  <p>Keep in mind that when communications or products are executed well, <em>the delight they bring is more than useful.</em> To say otherwise would be post-rationalise your customer's very human behaviour.</p>
+  
+  <p>Yours in the name of Decision-making Creativity,<br>Callum</p>
+</mj-text>

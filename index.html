@@ -1,221 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Littoral Line——a mailing list by Callum Flack Design</title>
+    <meta
+      name="description"
+      content="Design, UX & the web thru the lens of people + attention. Discover adjacent possibles by exploring the atypical in-betweens that wash-up in the littoral zone."
+    />
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js"
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KT9HZJ8");
+    </script>
+    <!-- End Google Tag Manager -->
+    <style>
+      /* reset */
+      html {
+        box-sizing: border-box;
+        /* font-size: 16px; */
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>The Littoral Line——a mailing list by Callum Flack Design</title>
-  <meta name="description" content="Design, UX & the web thru the lens of people + attention. Discover adjacent possibles by exploring the atypical in-betweens that wash-up in the littoral zone." />
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KT9HZJ8');</script>
-  <!-- End Google Tag Manager -->
-  <style>
-    /* reset */
-    html {
-      box-sizing: border-box;
-      /* font-size: 16px; */
-    }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
 
-    *,
-    *:before,
-    *:after {
-      box-sizing: inherit;
-    }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      ol,
+      ul {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+      }
 
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    ol,
-    ul {
-      margin: 0;
-      padding: 0;
-      font-weight: normal;
-    }
+      ol,
+      ul {
+        list-style: none;
+      }
 
-    ol,
-    ul {
-      list-style: none;
-    }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
 
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+      /* styles */
+      :root {
+        --c-text: #111;
+        --c-text-light: #999;
+        --c-border: #d9d9d9;
+        --c-bg: #fafafa;
+        --c-link: #fe3600;
+        --space: 1.75rem;
+      }
 
-    /* styles */
-    :root {
-      --c-text: #111;
-      --c-text-light: #999;
-      --c-border: #d9d9d9;
-      --c-bg: #fafafa;
-      --c-link: #fe3600;
-      --space: 1.75rem;
-    }
+      @font-face {
+        font-family: "Serif";
+        src: url("./assets/fonts/TiemposText-Regular.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: "Serif";
-      src: url("./assets/fonts/TiemposText-Regular.woff") format("woff");
-      font-weight: 400;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "Sans";
+        src: url("./assets/fonts/SuisseIntl-Regular.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: "Sans";
-      src: url("./assets/fonts/SuisseIntl-Regular.woff") format("woff");
-      font-weight: 400;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "Sans";
+        src: url("./assets/fonts/SuisseIntl-Medium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: "Sans";
-      src: url("./assets/fonts/SuisseIntl-Medium.woff") format("woff");
-      font-weight: 500;
-      font-style: normal;
-    }
-
-    body {
-      background-color: var(--c-bg);
-      display: block;
-      color: var(--c-text);
-      font-family: "Serif", Georgia, "Times New Roman", Times, serif;
-      font-size: 13px;
-      font-weight: 400;
-      height: 100%;
-      letter-spacing: -0.0025em;
-      line-height: 1.5;
-      min-height: 100vh;
-      text-align: center;
-      text-rendering: geometricPrecision;
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      -webkit-text-size-adjust: 100%;
-    }
-
-    .u-textCenter {
-      /* text-align: center; */
-    }
-
-    .u-block {
-      display: block;
-    }
-
-    .u-inlineBlock {
-      display: inline-block;
-    }
-
-    .c-text-light {
-      color: var(--c-text-light);
-    }
-
-    a:hover,
-    a:active {
-      color: var(--c-link) !important;
-    }
-
-    .container {
-      margin: 0 auto;
-      max-width: 600px;
-      padding: 0 var(--space);
-      position: relative;
-    }
-
-    .header {
-      margin: var(--space) 0;
-    }
-
-    .footer {
-      margin-top: var(--space);
-    }
-
-    hr {
-      background-color: var(--c-border);
-      border: 0;
-      box-sizing: content-box;
-      height: 1px;
-      margin-top: 0;
-      margin-bottom: var(--space);
-      overflow: visible;
-      padding: 0;
-    }
-
-    .Subtitle {
-      font-family: "Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
-      font-size: 30px;
-      font-weight: 500;
-      letter-spacing: -0.025em;
-      line-height: 1;
-      margin-bottom: 0.5rem;
-    }
-
-    .Subtitle span {
-      margin-right: calc(0.5 * var(--space));
-    }
-
-    .Subtitle a {
-      color: var(--c-text);
-      text-decoration: none;
-    }
-
-    .Subtitle a:hover,
-    .Subtitle a:active {
-      text-decoration: none;
-    }
-
-    .Excerpt+.Excerpt {
-      margin-top: calc(2 * var(--space));
-    }
-
-    p {}
-
-    p,
-    p a {
-      color: var(--c-text-light);
-    }
-
-    @media (min-width: 768px) {
       body {
-        font-size: 16px;
+        background-color: var(--c-bg);
+        display: block;
+        color: var(--c-text);
+        font-family: "Serif", Georgia, "Times New Roman", Times, serif;
+        font-size: 13px;
+        font-weight: 400;
+        height: 100%;
+        letter-spacing: -0.0025em;
+        line-height: 1.5;
+        min-height: 100vh;
+        text-align: center;
+        text-rendering: geometricPrecision;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      .u-textCenter {
+        /* text-align: center; */
+      }
+
+      .u-block {
+        display: block;
+      }
+
+      .u-inlineBlock {
+        display: inline-block;
+      }
+
+      .c-text-light {
+        color: var(--c-text-light);
+      }
+
+      a:hover,
+      a:active {
+        color: var(--c-link) !important;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0 var(--space);
+        position: relative;
       }
 
       .header {
-        margin: calc(2.333 * var(--space)) 0 calc(2 * var(--space));
+        margin: var(--space) 0;
       }
 
       .footer {
-        margin-top: calc(2 * var(--space));
+        margin-top: var(--space);
+      }
+
+      hr {
+        background-color: var(--c-border);
+        border: 0;
+        box-sizing: content-box;
+        height: 1px;
+        margin-top: 0;
+        margin-bottom: var(--space);
+        overflow: visible;
+        padding: 0;
       }
 
       .Subtitle {
-        font-size: 36px;
+        font-family: "Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: -0.025em;
+        line-height: 1;
+        margin-bottom: 0.5rem;
       }
-    }
-  </style>
-</head>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBHHRVS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <header role="banner" class="header">
-    <div class="container">
-      <h1 style="font-size:1rem">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" aria-labelledby="icon-sun"
-          role="presentation">
-          <title id="icon-sun" lang="en">icon-the-littoral-line</title>
-          <g fill="currentColor">
-            <path d="M0,12.6h2.3v-1.1H0V12.6z M12.6,0h-1.1v2.3h1.1V0z M9.9,5.3L8.8,2.7L7.7,3.1l1.1,2.7L9.9,5.3z M5.8,8.8L3.1,7.7L2.7,8.7
+      .Subtitle span {
+        margin-right: calc(0.5 * var(--space));
+      }
+
+      .Subtitle a {
+        color: var(--c-text);
+        text-decoration: none;
+      }
+
+      .Subtitle a:hover,
+      .Subtitle a:active {
+        text-decoration: none;
+      }
+
+      .Excerpt + .Excerpt {
+        margin-top: calc(2 * var(--space));
+      }
+
+      p {
+      }
+
+      p,
+      p a {
+        color: var(--c-text-light);
+      }
+
+      @media (min-width: 768px) {
+        body {
+          font-size: 16px;
+        }
+
+        .header {
+          margin: calc(2.333 * var(--space)) 0 calc(2 * var(--space));
+        }
+
+        .footer {
+          margin-top: calc(2 * var(--space));
+        }
+
+        .Subtitle {
+          font-size: 36px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KBHHRVS"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header role="banner" class="header">
+      <div class="container">
+        <h1 style="font-size:1rem">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            aria-labelledby="icon-sun"
+            role="presentation"
+          >
+            <title id="icon-sun" lang="en">icon-the-littoral-line</title>
+            <g fill="currentColor">
+              <path
+                d="M0,12.6h2.3v-1.1H0V12.6z M12.6,0h-1.1v2.3h1.1V0z M9.9,5.3L8.8,2.7L7.7,3.1l1.1,2.7L9.9,5.3z M5.8,8.8L3.1,7.7L2.7,8.7
       l2.7,1.1L5.8,8.8z M5.6,4.7L3.9,3.1L3.1,3.9l1.6,1.6L5.6,4.7z M5.5,12.6h1.9v-1.1H5.5V12.6z M14.8,8.4l0.8,0.8L17,7.8L16.2,7
       L14.8,8.4z M18.5,12.6v-1.1h-1.9v1.1H18.5z M20.9,3.9l-0.8-0.8l-1.6,1.6l0.8,0.8L20.9,3.9z M16.3,3.1l-1.1-0.4l-1.1,2.7l1.1,0.4
       L16.3,3.1z M12,8.9c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1C15.1,10.3,13.7,8.9,12,8.9z M11.4,7.5h1.1
@@ -223,50 +247,64 @@
       l-2.7-1.1L18.2,15.2z M14.8,15.6l1.4,1.4l0.8-0.8l-1.4-1.4L14.8,15.6z M14.1,18.7l1.1,2.7l1.1-0.4l-1.1-2.7L14.1,18.7z M18.2,8.8
       l0.4,1.1l2.7-1.1l-0.4-1.1L18.2,8.8z M21.7,11.4v1.1H24v-1.1H21.7z M2.7,15.2l0.4,1.1l2.7-1.1l-0.4-1.1L2.7,15.2z M3.1,20.1l0.8,0.8
       l1.6-1.6l-0.8-0.8L3.1,20.1z M9.2,15.6l-0.8-0.8L7,16.2L7.8,17L9.2,15.6z M11.4,24h1.1v-2.3h-1.1V24z M12.6,16.5h-1.1v1.9h1.1V16.5z
-      M7.7,20.9l1.1,0.4l1.1-2.7l-1.1-0.4L7.7,20.9z"></path>
-          </g>
-        </svg>
-      </h1>
-    </div>
-  </header>
+      M7.7,20.9l1.1,0.4l1.1-2.7l-1.1-0.4L7.7,20.9z"
+              ></path>
+            </g>
+          </svg>
+        </h1>
+      </div>
+    </header>
 
+    <main role="main">
+      <div class="container">
+        <article class="Excerpt">
+          <h2 class="Subtitle">
+            <a href="/LL01.html" class="u-block"><span class="m-r2">LL01</span>The thingness of words</a>
+          </h2>
+          <p class="">October 5th, 2018</p>
+        </article>
+        <article class="Excerpt">
+          <h2 class="Subtitle">
+            <a href="/LL02.html" class="u-block"
+              ><span class="m-r2">LL02</span>Irritating ideas and economic growth</a
+            >
+          </h2>
+          <p class="">October 19th, 2018</p>
+        </article>
+        <article class="Excerpt">
+          <h2 class="Subtitle">
+            <a href="/LL03.html" class="u-block"
+              ><span class="m-r2">LL03</span>System 1 perceives and System 2 creates</a
+            >
+          </h2>
+          <p class="">November 2nd, 2018</p>
+        </article>
+        <article class="Excerpt">
+          <h2 class="Subtitle">
+            <a href="/LL04.html" class="u-block"><span class="m-r2">LL04</span>Aesthetic arrest</a>
+          </h2>
+          <p class="">November 18th, 2018</p>
+        </article>
+      </div>
+    </main>
 
-
-
-
-  <main role="main">
-    <div class="container">
-      <article class="Excerpt">
-        <h2 class="Subtitle"><a href="/LL01.html" class="u-block"><span class="m-r2">LL01</span>The
-            thingness of words</a></h2>
-        <p class="">October 5th, 2018</p>
-      </article>
-      <article class="Excerpt">
-        <h2 class="Subtitle"><a href="/LL02.html" class="u-block"><span class="m-r2">LL02</span>Irritating ideas and
-            economic growth</a></h2>
-        <p class="">October 19th, 2018</p>
-      </article>
-      <article class="Excerpt">
-        <h2 class="Subtitle"><a href="/LL03.html" class="u-block"><span class="m-r2">LL03</span>System 1 perceives and
-            System 2 creates</a></h2>
-        <p class="">November 2nd, 2018</p>
-      </article>
-    </div>
-  </main>
-
-
-
-
-
-  <footer class="footer">
-    <div class="container">
-      <hr>
-      <p class="">
-        <span class="u-icon u-inlineBlock" style="margin-right:3px;transform:translateY(1px);"><svg xmlns="http://www.w3.org/2000/svg"
-            width="14" height="14" viewBox="0 0 24 24" aria-labelledby="icon-sun" role="presentation">
-            <title id="icon-sun" lang="en">icon-sun icon</title>
-            <g fill="currentColor">
-              <path d="M0,12.6h2.3v-1.1H0V12.6z M12.6,0h-1.1v2.3h1.1V0z M9.9,5.3L8.8,2.7L7.7,3.1l1.1,2.7L9.9,5.3z M5.8,8.8L3.1,7.7L2.7,8.7
+    <footer class="footer">
+      <div class="container">
+        <hr />
+        <p class="">
+          <span class="u-icon u-inlineBlock" style="margin-right:3px;transform:translateY(1px);"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              aria-labelledby="icon-sun"
+              role="presentation"
+            >
+              <title id="icon-sun" lang="en">icon-sun icon</title>
+              <g fill="currentColor">
+                <path
+                  d="M0,12.6h2.3v-1.1H0V12.6z M12.6,0h-1.1v2.3h1.1V0z M9.9,5.3L8.8,2.7L7.7,3.1l1.1,2.7L9.9,5.3z M5.8,8.8L3.1,7.7L2.7,8.7
                l2.7,1.1L5.8,8.8z M5.6,4.7L3.9,3.1L3.1,3.9l1.6,1.6L5.6,4.7z M5.5,12.6h1.9v-1.1H5.5V12.6z M14.8,8.4l0.8,0.8L17,7.8L16.2,7
                L14.8,8.4z M18.5,12.6v-1.1h-1.9v1.1H18.5z M20.9,3.9l-0.8-0.8l-1.6,1.6l0.8,0.8L20.9,3.9z M16.3,3.1l-1.1-0.4l-1.1,2.7l1.1,0.4
                L16.3,3.1z M12,8.9c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1C15.1,10.3,13.7,8.9,12,8.9z M11.4,7.5h1.1
@@ -274,16 +312,18 @@
                l-2.7-1.1L18.2,15.2z M14.8,15.6l1.4,1.4l0.8-0.8l-1.4-1.4L14.8,15.6z M14.1,18.7l1.1,2.7l1.1-0.4l-1.1-2.7L14.1,18.7z M18.2,8.8
                l0.4,1.1l2.7-1.1l-0.4-1.1L18.2,8.8z M21.7,11.4v1.1H24v-1.1H21.7z M2.7,15.2l0.4,1.1l2.7-1.1l-0.4-1.1L2.7,15.2z M3.1,20.1l0.8,0.8
                l1.6-1.6l-0.8-0.8L3.1,20.1z M9.2,15.6l-0.8-0.8L7,16.2L7.8,17L9.2,15.6z M11.4,24h1.1v-2.3h-1.1V24z M12.6,16.5h-1.1v1.9h1.1V16.5z
-               M7.7,20.9l1.1,0.4l1.1-2.7l-1.1-0.4L7.7,20.9z"></path>
-            </g>
-          </svg>
-        </span>
-        The Littoral Line<br>An e-letter about design, the web and attention from <a href="http://twitter.com/callumflack/">Callum
-          Flack</a>.<br><a href="https://callumflack.design/the-littoral-line">Subscribe here.</a>
-      </p>
-
-    </div>
-  </footer>
-</body>
-
+               M7.7,20.9l1.1,0.4l1.1-2.7l-1.1-0.4L7.7,20.9z"
+                ></path>
+              </g>
+            </svg>
+          </span>
+          The Littoral Line<br />An e-letter about design, the web and attention from
+          <a href="http://twitter.com/callumflack/">Callum Flack</a>.<br /><a
+            href="https://callumflack.design/the-littoral-line"
+            >Subscribe here.</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
