@@ -8,13 +8,13 @@
 
 <mj-text>
   
-  <p>My friend <a class="link" href="https://github.com/alidcastano/rogue.js">Alid</a> shared a draft of an article he'd been writing about art and code, and we had a generative back and forth about it. Alid said he felt awkward writing about code as art but that he thought that one's perception towards their craft defines how much they enjoy it, which in turn translates into how well they do it. I think that's pretty spot on and matches my own attitude to my work. Alid was worried about calling these ideas “art”. I pointed out that in the recent book <a class="link" href="https://www.goodreads.com/book/show/28820444-the-elephant-in-the-brain">“Elephant in the Brain”</a> they come to the conclusion that:</p>
+  <p>A <a class="link" href="https://github.com/alidcastano/rogue.js">friend</a> of mine recently shared a draft of an article he'd been writing about art and code, and we had a generative back and forth about it. He felt awkward writing about code as art but that he thought that one's perception towards their craft defines how much they enjoy it, which in turn translates into how well they do it. I think that's pretty spot on and matches my own attitude to my work. That he was worried about calling his programming “art” got me thinking. I pointed out that in the recent book <a class="link" href="https://www.goodreads.com/book/show/28820444-the-elephant-in-the-brain">“Elephant in the Brain”</a> they come to the conclusion that:</p>
   
   <blockquote class="blockquote">
     <p>Artists routinely sacrifice expressive power and manufacturing precision in order to make something more “impressive” as a fitness display.</p>
   </blockquote>
   
-  <p>The authors of the book, Robin Hanson and Kevin Simler, base their writings on compiled research, so they're not the only ones to come to this conclusion about art. Here's Geoffrey Miller's article <a class="link" href="https://static1.squarespace.com/static/58e2a71bf7e0ab3ba886cea3/t/58eba99f46c3c45cf0e44f54/1491839433220/2016+mona+art+essay.pdf">“Art-making evolved mostly to attract mates”</a> for the <a class="link" href="https://mona.net.au/">Museum of Old and New Art</a> (MONA), which says the same thing:</p>
+  <p>The authors of the book, Robin Hanson and Kevin Simler, base their writings on compiled research, so they're not the only ones to come to this conclusion about art. For example, Geoffrey Miller's article <a class="link" href="https://static1.squarespace.com/static/58e2a71bf7e0ab3ba886cea3/t/58eba99f46c3c45cf0e44f54/1491839433220/2016+mona+art+essay.pdf">“Art-making evolved mostly to attract mates”</a> for the <a class="link" href="https://mona.net.au/">Museum of Old and New Art</a> (MONA) says the same thing:</p>
   
   <blockquote class="blockquote">
     <p>…in biological terms, human art is just another “signaling system”</p>
@@ -22,13 +22,13 @@
   
   <h2 class="h2" style="padding-top:24px">Aesthetic arrest</h2>
   
-  <p>But I had a counterpoint for Alid, which is “aesthetic arrest”. James Joyce's idea of art as “aesthetic arrest”, which is when a thing in the world, man-made or otherwise, strikes you such that you become still.</p>
+  <p>But I had a counterpoint: James Joyce's idea of art as “aesthetic arrest”, which is when a thing in the world, man-made or otherwise, strikes you such that you become still.</p>
   
   <blockquote class="blockquote">
     <p>The instant wherein that supreme quality of beauty, the clear radiance of the esthetic image, is apprehended luminously by the mind which has been arrested by its wholeness and fascinated by its harmony is the luminous silent stasis of esthetic pleasure.<br> — A Portrait Of The Artist As A Young Man</p>
   </blockquote>
   
-  <p>In his numerous books, Joseph Campbell simplified Joyce's concept:</p>
+  <p>In Joseph Campbell's “The Art of Living”, Campbell simplified Joyce's concept:</p>
   
   <blockquote class="blockquote">
     <p>The aesthetic experience is a simple beholding of the object … you experience a radiance. You are held in aesthetic arrest.</p>
@@ -43,32 +43,28 @@
   <p>…where Māyā is:</p>
   
   <blockquote class="blockquote">
-    <p>…the Indian term for “illusion” … from the verbal root mā, “to measure, to measure out, to form, to create, construct, exhibit or display” … refers to both the power that creates an illusion and the false display itself … [it is] a Veiling Power that hides or conceals the “real”, the inward essential character of things; … [as a] white light broken into the colors of the rainbow by a prism.</p>
+    <p>…the Indian term for “illusion” [which] refers to both the power that creates an illusion and the false display itself … [it is] a Veiling Power that hides or conceals the “real”, the inward essential character of things; … [as a] white light broken into the colors of the rainbow by a prism.</p>
   </blockquote>
   
     <p>Combining Māyā with Aesthetic Arrest is a tremendous connection. Campbell says they are in essence one and the same thing: that it is when we become aware of the veiled illusion of a thing, suddenly and completely, as an epiphany of understanding. Because the feeling of relief we have with such moments are utterly intrapersonal, it shows a clear disparity against the concept of art as a fitness display, as described in “The Elephant in the Brain”. I don't dispute the idea that art <em>is</em> a fitness display but that it is <em>only</em> a fitness display. On the interpersonal “social animal” level, they are surely right. But on the intrapersonal plane, the concept of Māyā as sublime awareness helps individuals calm themselves within a deeper state of attention, independent of other beings.</p>
   
-  <p>I understand this when Campbell further extends his idea of Māyā to sacred spaces:</p>
+  <p>Campbell further extends his idea of Māyā to sacred spaces. Now it sounds like incense, flowers and Haight Ashubry 1969, but I urge you instead to think rather in terms of garages and quiet dark places because a sacred space is for pure play:</p>
   
   <blockquote class="blockquote">
-    <p>A sacred space is any space that is set apart from the usual context of life. … In your sacred space, things are working in terms of your dynamic—and not anybody else’s.</p>
+    <p>A sacred space is any space that is set apart from the usual context of life. … In your sacred space, things are working in terms of your dynamic—and not anybody else’s … I think a good way to conceive of sacred space is as a playground. If what you are doing seems like play, you are in it.<br> — Campbell</p>
   </blockquote>
+    
+  <p>Thus, quietly coding away in a flow state, and after some time, arriving at a surprisingly clean and concise lambda, and feeling very satisfied and calm with it, well, that's aesthetic arrest in a sacred space.</p>
   
-  <p>A sacred space allows pure play (I love how Campbell's writing sounds exactly like he talks, and how elements of the beat poets come through: “…you are in <em>it</em>”):</p>
+  <h2 class="h2" style="padding-top:24px">Sacred space attention and better work</h2>
   
-  <blockquote class="blockquote">
-    <p>I think a good way to conceive of sacred space is as a playground. If what you are doing seems like play, you are in it.</p>
-  </blockquote>
-  
-  <h2 class="h2" style="padding-top:24px">Wait, what does this have to do with creating interfaces?</h2>
-  
-  <p>Campbell continues to extend the idea of sacred spaces and play right through to employment, and here's where it gets interesting when one relates this entire concept to the modern workplace and economic productivity:</p>
+  <p>Once again, Campbell extends the idea of sacred spaces and play right through to employment, and I think that gets interesting when one relates this entire concept to the modern workplace and economic productivity:</p>
   
   <blockquote class="blockquote">
     <p>Your art is what I would call your work. Your employment is your job.</p>
   </blockquote>
   
-    <p>As we grow out of the era of <a class="link" href="https://images-na.ssl-images-amazon.com/images/I/41ehfowB9eL._SX298_BO1,204,203,200_.jpg">The Organisation Man</a> into a hyperconnected world where internet workers can work anywhere, I would think it's obvious that once you are obligated in a healthy way to your work (that is, your art), then you can't fail to be consciously invested in productive and valuable outcomes.</p>
+    <p>As we grow out of the era of <a class="link" href="https://images-na.ssl-images-amazon.com/images/I/41ehfowB9eL._SX298_BO1,204,203,200_.jpg">The Organisation Man</a> into a hyperconnected world where knowledge workers don't need to share a physical location, I would think it's obvious that once you are obligated in a healthy way to your work (that is, your art), then you can't fail to be consciously invested in productive and valuable outcomes.</p>
   
   <p>Yet more than mere productivity gains, these Māyā play-flow states allow greater perception. Here's Joyce again from “A Portrait of the Artist as a Young Man”:</p>
   
@@ -76,13 +72,13 @@
     <p>The first step in the direction of beauty is to understand the frame and scope of the imagination, to comprehend the act itself of aesthetic apprehension.</p>
   </blockquote>
   
-  <p>Now that's actually a pretty good definition of user experience design. An interface should want to capture and direct attention,which it can only do through some form of “aesthetic apprehension”, although perhaps transcendent stillness would be counterproductive. Or not? What a killer app that would be. By noticing and understanding how we place our attention in the world, we have much to learn from how art and beauty take hold of us. Joseph Campbell precedes:</p>
+  <p>Now that's actually a pretty good definition of user experience design. An interface should want to capture and direct attention,which it can only do through some form of “aesthetic apprehension”, although perhaps transcendent stillness would be counterproductive (or not? What a killer app that would be). We can learn how we place our attention by noticing and understanding how art and beauty take hold of us. Joseph Campbell precedes:</p>
   
   <blockquote class="blockquote">
     <p>The aesthetic object renders three moments: integritas, “wholeness”; consonantia, “harmony”; and claritas, “radiance.”</p>
   </blockquote>
   
-  <p>You can put a frame around any situation you wish to understand and design for by just remembering that attention happens through the whole, the harmony and the radiance. Feel free to change out the poetic terms to suit yourself (a variation might be “gestalt”, “synergy” and “make it pop”, to quote an old ad agency favourite), but I think that working from this set of first principles of attention is going to help one find the big Why questions more directly in any design process by purely resetting one's frame and scope of attention.</p>
+  <p>You can put a frame around any situation you wish to understand and design for by just remembering that attention happens through Campbell's “three aesthetic moments”: the whole, the harmony and the radiance. Feel free to change out the poetic terms to suit yourself (a variation might be “gestalt”, “synergy” and “make it pop”, to quote an old ad agency favourite), but I think that working from this set of first principles of attention is going to help one find the big Why questions more directly in any design process by purely resetting one's frame and scope of attention.</p>
 
 </mj-text>
   
@@ -95,7 +91,7 @@
 <mj-text>
   <h2 class="h2">Things inbetween</h2>
   
-  <p><b><a class="link" href="https://marginalrevolution.com/">My internet home page is now Marginal Revolution.</a></b> A few weeks ago, I decided that instead of hitting Twitter every morning, I'd start at Marginal Revolution instead. I figure I'd find some serendipity by looking where I don't usually look, and soak up some economic theory along the way. It's not like I hadn't read it before, but my morning rule has opened up a labyrinth of unfamiliar <em>interestingness</em>. The posts are <a class="link" href="https://marginalrevolution.com/marginalrevolution/2018/10/raising-status-chow-yun-fat.html">concise</a>, <a class="link" href="https://www.evernote.com/shard/s44/nl/4795781/5eae39e6-abff-42cb-8777-14725f8dd3f2/">funny</a> and <a class="link" href="https://marginalrevolution.com/marginalrevolution/2018/11/arent-millennials-buying-boats-boat-recession.html">wildly diverse</a>. In true Tyler speak, let me say <em>recommended</em>.</p>
+  <p><b><a class="link" href="https://marginalrevolution.com/">My internet home page is currently Marginal Revolution.</a></b> A few weeks ago, I decided that instead of hitting Twitter every morning, I'd start at Marginal Revolution instead. I figure I'd find some serendipity by looking where I don't usually look, and soak up some economic theory along the way. It's not like I hadn't read it before, but my morning rule has opened up a labyrinth of unfamiliar <em>interestingness</em>. The posts are <a class="link" href="https://marginalrevolution.com/marginalrevolution/2018/10/raising-status-chow-yun-fat.html">concise</a>, <a class="link" href="https://www.evernote.com/shard/s44/nl/4795781/5eae39e6-abff-42cb-8777-14725f8dd3f2/">funny</a> and <a class="link" href="https://marginalrevolution.com/marginalrevolution/2018/11/arent-millennials-buying-boats-boat-recession.html">wildly diverse</a>. In true Tyler speak, let me say <em>recommended</em>.</p>
   
   <blockquote class="blockquote">
     <p>“Creating artificial suspense” is one of the killer apps of the internet.<br>— <a class="link" href="https://www.bloomberg.com/opinion/articles/2018-11-13/world-chess-championship-2018-is-made-for-the-internet">Tyler Cowen</p>
