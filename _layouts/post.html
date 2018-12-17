@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<table>
+  <tbody>
+    <tr>
+      <td class="Container">
+        <div class="Content">
+
+          <table>
+            <tbody>
+              <tr>
+                <td>
+
+                  <div class="u-textCenter b-pb1"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></div>
+                  <h1 class="Title u-textCenter">{{ page.title }}</h1>
+                  <h2 class="fs-text-sm u-textCenter c-gray space-1x4">
+                    {{ page.issue_number}} &nbsp;•&nbsp; 
+                    {%- comment -%} https://learn.cloudcannon.com/jekyll/date-formatting/ {%- endcomment -%}
+                    {% assign day = page.date | date: "%-d"  %}
+                    {% case day %}
+                      {% when '1' or '21' or '31' %}{{ day }}st
+                      {% when '2' or '22' %}{{ day }}nd
+                      {% when '3' or '23' %}{{ day }}rd
+                      {% else %}{{ day }}th
+                    {% endcase %}
+                    {{ page.date | date: "%B, %Y" }} &nbsp;•&nbsp; 
+                    {{ page.reading_time }} minutes
+                  </h2>
+                  <p class="fs-text-sm u-textCenter c-gray space-2">Just visiting? <a href="https://callumflack.design/the-littoral-line">Subscribe to The Littoral Line.</a></p>
+
+                  {{ content }}
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

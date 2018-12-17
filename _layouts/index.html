@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<header>
+  <div class="Container">
+    {% for post in site.posts %}
+    <div class="bullet-content">
+      <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</header>

@@ -1,0 +1,17 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% seo title=false %}
+
+  <title>{% if page.url != '/' %}{{ page.title | escape }} ~ {% endif %}{{ site.title | escape }}</title>
+
+  {%- comment -%} <link rel="stylesheet" href="{{
+    " /dist/styles/application.css " | prepend: site.baseurl
+  }}">
+  <link rel="stylesheet" href="../../../src/styles/application.css" />
+  {%- endcomment -%}
+  <link rel="stylesheet" href="/src/styles/index.css" />
+  {% comment %}{% feed_meta %}{% endcomment %}
+
+</head>

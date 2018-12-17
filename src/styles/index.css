@@ -1,0 +1,212 @@
+:root {
+  --space: 1rem;
+  --grid-gutter: calc(2 * var(--space));
+  --flex-grid-gutter: calc(0.75 * var(--space));
+  --container-rg: calc(640px + (2 * var(--grid-gutter)));
+
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-2a: 0.75rem;
+  --s-3: 1rem;
+  --s-3a: 1.25rem;
+  --s-3b: 1.5rem;
+  --s-4: 2rem;
+  --s-5: 4rem;
+  --s-6: 8rem;
+  --s-7: 16rem;
+
+  --s-paragraph: calc(1.25 * var(--space));
+  --s-headline: calc(2 * var(--paragraph));
+  --s-blockquote: calc(1.1 * var(--paragraph));
+
+  --ff-stack-serif: Georgia, "Times New Roman", Times, serif;
+  --ff-stack-sans: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ff-stack-mono: "Courier New", "Consolas", "Andale Mono", "Lucida San Typewriter", "Lucida Console";
+}
+
+html,
+table {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  font-family: var(--ff-stack-serif);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+table,
+body {
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* + * {
+  margin-bottom: 16px !important;
+}
+
+/* 
+
+  Utils
+
+ */
+
+.space-1x4 {
+  margin-bottom: 4px !important;
+}
+
+.space-1x2 {
+  margin-bottom: 16px !important;
+}
+
+.space-2 {
+  margin-bottom: 32px !important;
+}
+
+.m-b0 {
+  margin-bottom: 0 !important;
+}
+
+hr {
+  background-color: #ddd;
+  border: 0;
+  box-sizing: content-box;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  overflow: visible;
+  padding: 0;
+}
+
+.b-py2 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.b-py1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.b-pt1 {
+  padding-top: 16px;
+}
+
+.b-pb1 {
+  padding-bottom: 16px;
+}
+
+.fs-text-sm {
+  font-size: 15px;
+}
+
+.fs-text {
+  font-size: 18px;
+}
+
+.u-textCenter {
+  text-align: center !important;
+}
+
+.c-gray,
+.c-gray a {
+  color: #888;
+}
+
+/* 
+
+  Theme
+
+ */
+
+.Container {
+  display: block !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  clear: both !important;
+}
+
+.Content {
+  padding: 15px;
+  padding-bottom: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Title {
+  font-size: 40px;
+  font-family: var(--ff-stack-sans);
+  font-weight: 500;
+}
+
+.Image {
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 24px;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: auto !important;
+}
+
+h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+  font-weight: bold;
+  margin-top: 40px;
+  text-transform: none;
+  text-align: left;
+}
+
+blockquote {
+  border-left: 2px solid #efefef;
+  font-style: italic;
+  padding-left: 15px;
+}
+
+a {
+  color: red;
+}

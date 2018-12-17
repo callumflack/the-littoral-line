@@ -1,7 +1,6 @@
 {
-  "name": "the-littoral-line",
-  "alias": ["the-littoral-line.callumflack.design"],
-  "version": 1,
+  "name": "thesubstation",
+  "alias": ["thesubstation.now.sh"],
   "env": {
     "NODE_ENV": "production"
   }

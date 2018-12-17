@@ -1,5 +1,9 @@
 # dependencies
 node_modules
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 # logs
 npm-debug.log
