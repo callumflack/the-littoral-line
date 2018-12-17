@@ -1,35 +1,9 @@
-:root {
-  --space: 1rem;
-  --grid-gutter: calc(2 * var(--space));
-  --flex-grid-gutter: calc(0.75 * var(--space));
-  --container-rg: calc(640px + (2 * var(--grid-gutter)));
-
-  --s-1: 0.25rem;
-  --s-2: 0.5rem;
-  --s-2a: 0.75rem;
-  --s-3: 1rem;
-  --s-3a: 1.25rem;
-  --s-3b: 1.5rem;
-  --s-4: 2rem;
-  --s-5: 4rem;
-  --s-6: 8rem;
-  --s-7: 16rem;
-
-  --s-paragraph: calc(1.25 * var(--space));
-  --s-headline: calc(2 * var(--paragraph));
-  --s-blockquote: calc(1.1 * var(--paragraph));
-
-  --ff-stack-serif: Georgia, "Times New Roman", Times, serif;
-  --ff-stack-sans: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
-  --ff-stack-mono: "Courier New", "Consolas", "Andale Mono", "Lucida San Typewriter", "Lucida Console";
-}
-
 html,
 table {
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
-  font-family: var(--ff-stack-serif);
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
@@ -177,7 +151,7 @@ hr {
 
 .Title {
   font-size: 40px;
-  font-family: var(--ff-stack-sans);
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -209,4 +183,8 @@ blockquote {
 
 a {
   color: red;
+}
+
+code {
+  font-family: "Courier New", "Consolas", "Andale Mono", "Lucida San Typewriter", "Lucida Console";
 }
