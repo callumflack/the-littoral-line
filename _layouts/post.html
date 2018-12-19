@@ -13,10 +13,15 @@ layout: default
               <tr>
                 <td>
 
-                  <div class="u-textCenter b-pb1"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></div>
+                  <div class="u-textCenter b-pb1">
+                    <a href="https://callumflack.design/" target="_blank"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></a>
+                  </div>
                   <h1 class="Title u-textCenter">{{ page.title }}</h1>
-                  <h2 class="fs-text-sm u-textCenter c-gray space-1x4">
+                  <h2 class="fs-text-sm u-textCenter c-gray {% if page.issue_number %}space-1x4{% else %}space-2{% endif %}">
+                    {% if page.issue_number %}
                     {{ page.issue_number}} &nbsp;•&nbsp; 
+                    {% endif %}
+
                     {%- comment -%} https://learn.cloudcannon.com/jekyll/date-formatting/ {%- endcomment -%}
                     {% assign day = page.date | date: "%-d"  %}
                     {% case day %}
@@ -25,10 +30,16 @@ layout: default
                       {% when '3' or '23' %}{{ day }}rd
                       {% else %}{{ day }}th
                     {% endcase %}
-                    {{ page.date | date: "%B, %Y" }} &nbsp;•&nbsp; 
-                    {{ page.reading_time }} minutes
+                    {{ page.date | date: "%B, %Y" }}
+
+                    {% if page.issue_number %}
+                    &nbsp;•&nbsp;{{ page.reading_time }} minutes
+                    {% endif %}
                   </h2>
-                  <p class="fs-text-sm u-textCenter c-gray space-2">Just visiting? <a href="https://callumflack.design/the-littoral-line">Subscribe to The Littoral Line.</a></p>
+
+                  {% if page.issue_number != null %}
+                    <p class="fs-text-sm u-textCenter c-gray space-2">Just visiting? <a href="https://callumflack.design/the-littoral-line">Subscribe to The Littoral Line.</a></p>
+                  {% endif %}
 
                   {{ content }}
 

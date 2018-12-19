@@ -11,10 +11,16 @@
 
                   <hr>
                   <p class="fs-text-sm u-textCenter c-gray b-pb1">
-                    The Littoral Line<br>
-                    An electronic letter from <a href="https://twitter.com/callumflack">Callum Flack</a>.<br>
-                    <a href="/">Archives here</a>. You can <a href="https://callumflack.design/the-littoral-line">subscribe here</a>.
+                    ✺ The Littoral Line<br>
+                    An electronic letter from <a href="https://twitter.com/callumflack" target="_blank">Callum Flack</a>.<br>
+                    You can <a href="https://callumflack.design/the-littoral-line" target="_blank">subscribe or read the archives here</a>.
                   </p>
+
+                  {% if jekyll.environment != "production" and page.layout == "post" %}
+                  <p class="u-textCenter">
+                    <a href="/">Index</a>
+                  </p>
+                  {% endif %}
 
                 </td>
               </tr>

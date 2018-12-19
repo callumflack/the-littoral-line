@@ -1,0 +1,15 @@
+---
+layout: post
+title: Perspective
+date: 2018-12-18 08:00:00 +1000
+issue_number: LL05
+reading_time: 2
+---
+
+<img src="/src/assets/2018-perspective.gif" alt="Camino, from St. Jean" style="width: 100%; height: auto;" class="Image">
+
+Disengaging from routine is underrated. It's also a difficult a skill to practice. It is easy to keep being busy. Yet as Alan Kay famously said, perspective is worth 80 IQ points.
+
+To everyone I've had the pleasure of working with in 2018, I wish you season's greetings and the time to a rocky outcrop with a good view.
+
+<img src="/src/assets/LL01-red-leather.jpg" alt="Camino, from St. Jean" style="width: 100%; height: auto;" class="Image">

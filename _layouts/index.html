@@ -2,13 +2,34 @@
 layout: default
 ---
 
-<header>
-  <div class="Container">
+<div class="Container">
+  <div class="Content">
+
+    <div class="u-textCenter b-pb1"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></div>
+
     {% for post in site.posts %}
-    <div class="bullet-content">
-      <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
-    </div>
+      <article>
+        <h1 class="Title u-textCenter">
+          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        </h1>
+        <h2 class="fs-text-sm u-textCenter c-gray {% if post.issue_number %}space-1x4{% else %}space-2{% endif %}">
+            {% if post.issue_number %}
+            {{ post.issue_number}} &nbsp;•&nbsp; 
+            {% endif %}
+            {% assign day = post.date | date: "%-d"  %}
+            {% case day %}
+              {% when '1' or '21' or '31' %}{{ day }}st
+              {% when '2' or '22' %}{{ day }}nd
+              {% when '3' or '23' %}{{ day }}rd
+              {% else %}{{ day }}th
+            {% endcase %}
+            {{ post.date | date: "%B, %Y" }}
+            {% if post.issue_number %}
+            &nbsp;•&nbsp;{{ post.reading_time }} minutes
+            {% endif %}
+        </h2>
+      </article>
     {% endfor %}
+
   </div>
-</header>
+</div>

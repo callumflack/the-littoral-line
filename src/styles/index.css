@@ -93,14 +93,14 @@ hr {
   padding: 0;
 }
 
-.b-py2 {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
 .b-py1 {
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.b-py2 {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .b-pt1 {
@@ -109,6 +109,10 @@ hr {
 
 .b-pb1 {
   padding-bottom: 16px;
+}
+
+.b-pb2 {
+  padding-bottom: 48px;
 }
 
 .fs-text-sm {
@@ -153,6 +157,12 @@ hr {
   font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
+  margin-bottom: 8px !important;
+}
+
+.Title a {
+  color: #000;
+  text-decoration: none;
 }
 
 .Image {

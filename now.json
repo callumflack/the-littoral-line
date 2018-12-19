@@ -1,7 +1,8 @@
 {
-  "name": "thesubstation",
-  "alias": ["thesubstation.now.sh"],
+  "name": "the-littoral-line",
+  "alias": ["thelittoralline.callumflack.design"],
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "JEKYLL_ENV": "production"
   }
 }
