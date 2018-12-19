@@ -1,0 +1,13 @@
+---
+layout: post
+title: Perspective
+date: 2018-12-20 07:00:00 +1000
+---
+
+<img src="/src/assets/2018-perspective.gif" alt="View of Cairns from Edge Hill" style="width: 100%; height: auto;" class="Image">
+
+<!-- It's also a difficult a skill to practice. -->
+
+Disengaging from routine is underrated. It is easier to keep being busy. Yet as Alan Kay famously said, perspective is worth 80 IQ points.
+
+To everyone I've had the pleasure of working with in 2018, I wish you season's greetings and an energising rest, with enough time to climb up a mountain for its blue-sky perspective. I kindly hope this gives your routines [_occhiolism_](http://www.dictionaryofobscuresorrows.com/post/95735249861/occhiolism), allowing you relief from this year and optimism for the next.

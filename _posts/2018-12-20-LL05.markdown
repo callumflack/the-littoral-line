@@ -1,0 +1,17 @@
+---
+layout: post
+title: Perspective
+date: 2018-12-20 07:00:00 +1000
+issue_number: LL05
+reading_time: 2
+---
+
+<img src="/src/assets/2018-perspective.gif" alt="View of Cairns from Edge Hill" style="width: 100%; height: auto;" class="Image">
+
+<!-- > I think people who are not artists often feel that artists are inspired. But if you work at your art you don’t have time to be inspired. Out of the work comes the work.<br>John Cage -->
+
+Disengaging from routine is underrated. It is easier to keep being busy. Yet as Alan Kay famously said, perspective is worth 80 IQ points.
+
+So I wish all of you an energising rest over the holiday season, with enough time to climb up a mountain for its blue-sky perspective. I kindly hope this gives your routines [_occhiolism_](http://www.dictionaryofobscuresorrows.com/post/95735249861/occhiolism), allowing you relief from this year and optimism for the next.
+
+Ps. Along the same line of thought, [here's my favourite design article of 2018](https://www.ribbonfarm.com/2018/04/06/deep-laziness/). TL;DR to generate a richer self (or a richer form), default to the "repeated elaboration" of doing the most natural, lazy things that accord with you (or that form).
