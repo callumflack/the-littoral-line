@@ -10,7 +10,8 @@ layout: default
     {% for post in site.posts %}
       <article>
         <h1 class="Title u-textCenter">
-          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          {%- comment -%} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> {%- endcomment -%}
+          <a href="https://thelittoralline.callumflack.design{{ post.url }}">{{ post.title }}</a>
         </h1>
         <h2 class="fs-text-sm u-textCenter c-gray {% if post.issue_number %}space-1x4{% else %}space-2{% endif %}">
             {% if post.issue_number %}

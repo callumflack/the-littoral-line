@@ -1,0 +1,45 @@
+---
+layout: post
+title: Pouring
+date: 2019-02-08 07:00:00 +1000
+issue_number: LL06
+reading_time: 4
+---
+
+<img src="/src/assets/LL06-pouring.jpg" alt="Balconey view of a little man in the pouring rain" style="width: 100%; height: auto;" class="Image">
+
+Hello Littoralists,
+
+So it's October isn't it? It feels like it here on my end. Take that thought for a moment: where was it you wanted to be by October? Pretend everything went wrong, while you're at it. Welcome back!
+
+I have been pouring through projects like the water run-off at the park near my house here in Cairns, Australia, in the heaviest tropical monsoon season I can remember since I was a child living in Singapore.
+
+### Re-viewing
+
+Last December, I took some time to write down thoughts of the year past. This annual review was far more fluid than previous years because I was tired enough and needed a full fortnight away from any screen. The long and short of it was that I came up with three themes:
+
+1. Recovery
+2. Feedback
+3. Effortlessness
+
+Let me briefly explain them.
+
+_**Recovery.**_ As a freelancer, my duty isn't just to my clients. It's to my peers and myself. I can't care less than what the job requires. So I work hard, I am diligent. And yet when I hit the Christmas holidays (our long holiday here in Australia), I admit I was pretty beat. It is easy to keep going, to go back and try to defeat one more task for the day. It's only when we walk away that we can see clearly that we're tired and the quality of our work is suffering. When we stop, cancel the todos, let all low-hanging fruit stay hanging, and let ourselves do nothing long enough to forget about doing things — this is when we have great insights. The insights only appear when they're ready, like slow, gentle and inquisitive fish from the deep, carefully proposing the simplest question. They never bother to appear when your "doing" brain is switched on. But these are the insights that make us work smart. [To find the adjacency](https://twitter.com/cyetain/status/1093318874479636481?s=21), first recover.
+
+_**Feedback.**_ We all live with the world in our head, yet I think most people I work closely with understand the world as they see it ain't reality. I can't know what you are thinking. I can't filter more of the information in the world to give me a clearer understanding of reality, my brain isn't capable of the computations required. We only learn when we're open to listening: to our surroundings, to the console error message, to other people, and indeed to the gentle giant fish that bring us our insights when we're at rest. The greater extension of this is when someone you trust gives you feedback on who you are, what you're doing. We very rarely get this and, in many respects, our work cultures are based on defending our reputations, which very much limits our chances to understand and take the opportunity to gain feedback. I hope to find ways to gain more feedback this year. So if anyone here is interested in a small, closeknit mastermind group for internet freelancers, my inbox is all ears.
+
+Last of all, _**effortlessness**_. What do I mean by that? My diligence can become a crippling conscientiousness. Certainly in high school, I was far too obedient. (It's OK, I quickly turned that around for my entire 20s). I am capable of going deep into details and sticking to task for long periods of time, stacking those details into a body of work. It's what made me good at finding obscure soul 45s, and it's what makes me good with typography and building interfaces. But even now, I can go too far. And I think that's because I identify with that _hard work ethic_ quite closely, where I won't give up on the craftsmanship that I think is required. Our strengths are so often also weaknesses. So upon reflection, there is a need for a light touch. And I think that will negate quality. During my web projects, there are multitudes of considerations, from responsive design to copy to SEO redirects, and many of these tasks don't need craftsmanship. Instead it's a matter of knowing when to change gears to suit the situation.
+
+> A horse with no bridle is useless, but equally bad is the horse whose reins you pull at every turn, in a vain effort at control. Control comes from almost letting go, holding the reins so lightly that the horse feels no tug but senses the slightest change in tension and responds as you desire.<br>— Robert Green, 33 Strategies of War
+
+### Even simple websites can benefit from Reactive Javascript libraries & JAMstack
+
+Changing topics quickly, [here's a short (ever)note](https://www.evernote.com/l/ACy2DGbmlqhJLroBs0MdyZZUzhY5mSZwP0Y) about why even the simplest websites can benefit from Reactive Javascript libraries and the JAMstack method (Javascript, APIs + Markup). If you care for such things, or have an opinion yourself, I'd love your feedback. I've been making the arguement for using these systems for a number of years but I've never written about it. I hope it can be a helpful introduction to my approach that I can share with propspective clients in the future.
+
+### That's a wrap
+
+This year I'm going to make [The Littoral Line](https://callumflack.design/the-littoral-line) a far more fluid newsletter. Perhaps more like a weekly journal. There will be less to read, but I hope that by reducing the length, more ideas, expressed more simply, can emerge.
+
+Best wishes for your 2019.
+
+> What we agree with leaves us inactive, but contradiction makes us productive.<br>— Goethe

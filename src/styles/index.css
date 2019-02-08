@@ -46,7 +46,7 @@ ul {
   font-weight: normal;
 }
 
-ol,
+/* ol, */
 ul {
   list-style: none;
 }
@@ -58,6 +58,10 @@ img {
 
 * + * {
   margin-bottom: 16px !important;
+}
+
+li {
+  margin-bottom: 0 !important;
 }
 
 /* 
