@@ -64,7 +64,7 @@ li {
   margin-bottom: 0 !important;
 }
 
-/* 
+/*
 
   Utils
 
@@ -136,7 +136,7 @@ hr {
   color: #888;
 }
 
-/* 
+/*
 
   Theme
 
@@ -161,7 +161,9 @@ hr {
   font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
-  margin-bottom: 8px !important;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  margin-bottom: 12px !important;
 }
 
 .Title a {

@@ -1,0 +1,65 @@
+---
+layout: post
+title: You don’t miss good tools until you have to use the old tools
+date: 2019-02-22 07:00:00 +1000
+issue_number: LL07
+reading_time: 5
+---
+
+<img src="/src/assets/LL07-lego.jpg" alt="Balconey view of a little man in the pouring rain" style="width: 100%; height: auto;" class="Image">
+
+Last weekend, as I chatted to the mechanic who was diagnosing why our car wouldn't start, he said “I charged my pressurised tyre jack last night but forgot to put it back in the truck. So this morning I’ve already done 2 manual tyre changes. What normally takes me 5 minutes took 25 minutes." The clincher was what he said next:
+
+> You don’t miss good tools until you have to use the old tools.
+
+Yesterday, I spoke to a friend on twitter about software tools. He mentioned a discussion he had with the creator of [React Native for Web](https://github.com/necolas/react-native-web) about it's constraints, where the creator [replied](https://github.com/necolas/react-native-web/issues/1215#issuecomment-449780797):
+
+> part of the cost is in learning how to think about old things in new ways. And how to make the best use of new tools.
+
+Spending much of last month reworking Wordpress sites after exclusively using Vue.js for the past 18 months, it is very easy for me to see the value in new tools. _Vue is fun, Wordpress is cumbersome_. Not only should new tools make it easier to get more done, better, they should change the way understand the base problem you're handling.
+
+> We shape our tools, and thereafter our tools shape us.
+
+### Web development tools are reshaping the web
+
+The web is a quarter century young. All the tools we use to make the web are immature and _in progress_. To get where we are today—where we can turn on Netflix and have a video package of the smallest size but of the highest quality progressively delivered so we perceive it as immediate—there had to be many experiments, failures and driven craftspeople willing to go against the grain of their craft’s opinion, muttering to themselves “there must be a better way”.
+
+New tools expand horizons. They pose better questions and push forward possibilities. By continual exploration, through experimental software libraries such as React Native for Web, we get to refine what the problems are, and we realise along that journey what matters within the constraints of those problems, where boundaries can be pushed and when we can agree that the problem is solved, or indeed, when we can rewrite the problem entirely.
+
+> We shall not cease from exploration<br>
+  And the end of all our exploring<br>
+  Will be to arrive where we started<br>
+  And know the place for the first time.<br>
+  — T.S. Eliot, Little Gidding
+
+I think we're slowly seeing a generational shift in web development between the proprietary bundled legacy systems of the dominant web publishing platforms from 5-10 years ago as they struggle to modernise and compete against the fundamentally different approaches of modern web development, where a multiplicity of unbundled open-source and freemium services can be integrated together in a technology stack customised to business requirements.
+
+Instead of letting [VUCA](https://en.wikipedia.org/wiki/Volatility,_uncertainty,_complexity_and_ambiguity) take hold, I'd say it's _a big opportunity_. The tools are here, they're just not evenly understand. But when the new tools become proven and normalised within the culture, then reverting back to old tools will become, well, painful. Just like my mechanic explained. Why wait until it's obviously painful?
+
+### Explaining the paradigm shift occuring in web development
+
+> And please, speak as you might to a young child, or a golden retriever.<br>— [Jeremy Irons, Margin Call](https://youtu.be/366DExfdQWM?t=53)
+
+I've almost completed a new article about how I see modern web development in 2019 (or rather my bias with some damn good reasons for it). It's the first time I’ll have blogged about questions my clients have been posing to me for the past few years.
+
+My take is probably different to the usual Medium posts you'll read on the topic. For one, I'm not a born developer and I don't have the baggage of having transferred out of a decade of PHP in the early 2010s. Instead, I was a graphic designer for well over a decade before I started learning to program. There was a lot I haven't had to unlearn because I never learned it in the first place.
+
+I will also start posting shorter articles about web development options that I hope answer further client questions in a non-technical manner. I intend to help my clients understand what's happening in web development and when they should take advantage of the cavalcade of options that I believe can help small to medium size businesses. Unfortunately, they're not getting the best advice from IT vendors and SEO salesman who trade in the asymmetry of lingo.
+
+### Social media is not a tool for internal context.
+
+Warren Ellis started [his new blog aka notebook](http://warrenellis.ltd/ltd/ltd001/) with this gem:
+
+> Social media does not “get” not-fully-baked. Social media is useless for thinking out loud and exploring notions. Social media — bizarrely, given its nature — does not do context.
+
+> I start a new notebook every year. Notebooks have internal context. Notebooks exist only to think about things, remember things and preserve things for later consideration. This is a notebook.
+
+I’m taking Warren Ellis’ thoughts to heart. By writing this newsletter at least every fortnight, it also becomes a notebook.
+
+Ps. when I searched for "note taking" in my Evernote (it's ugly but it works), I found this [exceptional note on Bill Seitz’s thinking about note-taking, hypertext and wikis as self-agency tools](https://www.evernote.com/shard/s44/sh/67352773-94dd-4dd4-9069-8f6b408dfa61/41ca41f611f4dcf644979104f973eb97). (Thanks to whoever it was in the #BASB crowd I forked this from).
+
+### That’s a wrap
+
+I'm sorry this one's so long. Again. Sometimes it's good to stop the work and take a break. I find the best way to do that is either do a workout or play some records. So here's a new song I found which sure stopped me doing any work for at least an hour last Wednesday. But first, a little context…
+
+I lived in or near Cambridgeshire, England for 5 years. I’m sure I walked past Syd Barrett sitting in some dark pub without knowing it, probably multiple times (he was still alive back then). Walking the beautiful countryside gave one a greater feel for the gentle violent humour within the songs of Nick Drake. In the same Mad Hatter spirit, this thumping new cut by the ever-theatrical Aldous Harding certainly has something of the Cambridgeshire fens about it. Check out the bright sunshine change-up at the 3 minute mark! It's new new and old at the same time. It even has an oboe bass line. [Enjoy.](https://youtu.be/QyZeJr5ppm8)
