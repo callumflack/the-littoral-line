@@ -1,0 +1,39 @@
+---
+layout: post
+title: Conditions and consequences
+date: 2019-02-22 07:00:00 +1000
+issue_number: LL08
+reading_time: 5
+---
+
+<img src="/src/assets/LL07-lego.jpg" alt="Balconey view of a little man in the pouring rain" style="width: 100%; height: auto;" class="Image">
+
+In [LL07 last month](https://thelittoralline.callumflack.design/LL07) I spoke about why we should use the best tools for the job. Well that's easy Callum, why would you not? We're all quite good at using the shortest known route from A to B. If it works, it works. Why change? Why bother spending the time, money and effort to test out new tools?
+
+### Designing systems & choosing tools
+
+Sudden catastrophe is a good instigator for change. Yet the cause of the catastrophe is never sudden, but rather a long-term compounding of effects that we weren't paying attention to. When we are surprised by catastrophe, it's caused by a sudden enemy. But when we reflect with hindsight, the indicators of the catastrophe were clear to see. And this is the bias that colours all our decision-making. We live our lives by habitual shortcuts, and that makes life much easier. We only make change when we become painfully aware that a method has stopped serving us.
+
+(By the way, I published an article about what I see as the paradigm shift in [web development tools and web publishing systems](https://callumflack.design/blog/your-website-system-is-probably-wildly-out-of-date). It might be of interest if you have a business website that relies on "old" methods to render your website. Like Wordpress! While you may not know it, there's better tools for the job and you're getting left behind…)
+
+### Intentional thinking is strategic thinking
+
+> Strategy is just another word for being as intentional and well-informed as you are ambitious.
+
+When a decision is required—especially within a business context—actions made towards an end goal help us to _feel good_. But only time (and good feedback, such as the market) will tell us whether we've truly been effective.
+
+Stopping to reflect on the tools we're using to take action _slow down action_. Which is why we're biased against doing that. It makes the route longer: from point A we have to detour to point C, where we'll usually discover points D, E and F, and if we continue far enough, we'll realise point A was not α. And suddenly Point B is only β.
+
+Let me repeat:
+
+> And the end of all our exploring<br> Will be to arrive where we started<br> And know the place for the first time.<br>— T.S. Eliot, Little Gidding
+
+At this point, we understand how action can serve as an anaesthetic for thinking. Understanding the problem at hand is usually someone screams "just tell me what to do!" nd when we don't know how to judge whether a system, a method, a workflow or tool
+
+> Act like a man of thought, think like a man of action
+
+### Setting emotional conditions
+
+Whether a technique, a workflow, or a habit, we design and assess systems—and the tools and habits we use in them—with this same circuit of biases. Attending to our emotional awareness across the spectrum—from acute pain, to unassuming confidence, to a bothersome feeling that keeps nudging us—is all we have to help us judge our decisions before time gives us a result.
+
+Within those emotions are contained all our experience. As I've explained [_The instantaneous language of beauty_](https://callumflack.design/blog/the-instantaneous-language-of-beauty), before we rationalise with verbal language (which is also how we talk to ourselves), we've already gone through a processing stage using emotion.
