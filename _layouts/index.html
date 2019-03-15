@@ -10,12 +10,15 @@ layout: default
     {% for post in site.posts %}
       <article>
         <h1 class="Title u-textCenter">
-          {%- comment -%} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> {%- endcomment -%}
-          <a href="https://thelittoralline.callumflack.design{{ post.url }}">{{ post.title }}</a>
+          {% if site.env == "production" %}
+            <a href="https://thelittoralline.callumflack.design{{ post.url }}">{{ post.title }}</a>
+          {% else %}
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          {% endif %}
         </h1>
         <h2 class="fs-text-sm u-textCenter c-gray {% if post.issue_number %}space-1x4{% else %}space-2{% endif %}">
             {% if post.issue_number %}
-            {{ post.issue_number}} &nbsp;•&nbsp; 
+            {{ post.issue_number}} &nbsp;•&nbsp;
             {% endif %}
             {% assign day = post.date | date: "%-d"  %}
             {% case day %}
