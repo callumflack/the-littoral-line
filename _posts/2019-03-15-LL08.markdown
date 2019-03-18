@@ -8,7 +8,7 @@ reading_time: 3
 
 <img src="/src/assets/LL08-farmyard.jpg" alt="Farmyard divisions in play" style="width: 100%; height: auto;" class="Image">
 
-To be honest with you, I really struggled writing this newsletter. Ideas are easy, but executing them—keeping my ramble short and pointed—has been difficult. The answer to my troubles was staring me right in the face for five days. (There's more on purposefully paradoxical Chinese Strategy below.)
+To be honest with you, I really struggled writing this edition. Ideas are easy, but executing them—keeping my ramble short and pointed—has been difficult. The answer to my troubles was staring me right in the face for five days. (There's more on purposefully paradoxical Chinese Strategy below.)
 
 > Rather than to attempt a difficult feat, we start with something easy; rather than to create something big, we start with something small. This makes sense because even the most difficult task can be broken down into simpler steps, and even the grandest achievement must be composed of smaller parts.<br>— Tao Te Ching, Chapter 63 (via this [excellent translation](https://taoism.net/tao/tao-te-ching-chapter-63/))
 
@@ -55,3 +55,5 @@ The problem with experts is that it’s quite easy to come across as one. Becaus
 Hey Callum, I thought you said you were a designer? Where's the cool visuals?
 
 > Although design is often elided with problem solving, the latter is not unique at all. Many vocations solve problems every day, from accountants to mechanics. Engineering is particularly good at it. Design, however, can be focused on the harder process of question asking as much as problem solving. Design’s instinctive reach for synthesis – “how to frame what we can do” – and then visualisation – “what things can be like” – is increasingly understood to be of value in understanding, conveying and communicating.<br>— Dan Hill, [Strategic design for public purpose](https://medium.com/iipp-blog/strategic-design-for-public-purpose-33c3899dba5e)
+
+Finally, thanks for reading. Please pass this on to anyone you think might find it interesting. Thank you.
