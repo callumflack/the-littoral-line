@@ -1,39 +1,57 @@
 ---
 layout: post
 title: Conditions and consequences
-date: 2019-02-22 07:00:00 +1000
+date: 2019-03-18 07:00:00 +1000
 issue_number: LL08
-reading_time: 5
+reading_time: 3
 ---
 
-<img src="/src/assets/LL07-lego.jpg" alt="Balconey view of a little man in the pouring rain" style="width: 100%; height: auto;" class="Image">
+<img src="/src/assets/LL08-farmyard.jpg" alt="Farmyard divisions in play" style="width: 100%; height: auto;" class="Image">
 
-In [LL07 last month](https://thelittoralline.callumflack.design/LL07) I spoke about why we should use the best tools for the job. Well that's easy Callum, why would you not? We're all quite good at using the shortest known route from A to B. If it works, it works. Why change? Why bother spending the time, money and effort to test out new tools?
+To be honest with you, I really struggled writing this newsletter. Ideas are easy, but executing them—keeping my ramble short and pointed—has been difficult. The answer to my troubles was staring me right in the face for five days. (There's more on purposefully paradoxical Chinese Strategy below.)
 
-### Designing systems & choosing tools
+> Rather than to attempt a difficult feat, we start with something easy; rather than to create something big, we start with something small. This makes sense because even the most difficult task can be broken down into simpler steps, and even the grandest achievement must be composed of smaller parts.<br>— Tao Te Ching, Chapter 63 (via this [excellent translation](https://taoism.net/tao/tao-te-ching-chapter-63/))
 
-Sudden catastrophe is a good instigator for change. Yet the cause of the catastrophe is never sudden, but rather a long-term compounding of effects that we weren't paying attention to. When we are surprised by catastrophe, it's caused by a sudden enemy. But when we reflect with hindsight, the indicators of the catastrophe were clear to see. And this is the bias that colours all our decision-making. We live our lives by habitual shortcuts, and that makes life much easier. We only make change when we become painfully aware that a method has stopped serving us.
+### The best web publishing tools
 
-(By the way, I published an article about what I see as the paradigm shift in [web development tools and web publishing systems](https://callumflack.design/blog/your-website-system-is-probably-wildly-out-of-date). It might be of interest if you have a business website that relies on "old" methods to render your website. Like Wordpress! While you may not know it, there's better tools for the job and you're getting left behind…)
+In [LL07 last month](https://thelittoralline.callumflack.design/LL07) I spoke about why we should use the best tools for the job. Rationally, why would you not? Thing is we’re mostly not rational. We're all quite good at using the shortest known route from A to B. If it works, it works. Why change? Why bother spending the time, money and effort to test out new tools?
 
-### Intentional thinking is strategic thinking
+I wrote up some thoughts that relate to this bias and put them in the context of what I see as the changing paradigm of web development tools & publishing systems. It feels to me like many of the clients I work with know only one website publishing possibility I think they’re missing out on, well, the best tools for the job.
+
+<!-- My clients have been doing it the hard way, they just didn't know it yet. -->
+
+Turns out I'm not the only one who feels the need to tell people about theses new web publishing tools:
+
+> It was as fast, as custom, and as free of plugins as I could possibly make it, but WordPress is cumbersome, and there's only so fast and pleasant to use you can make it.<br>— [The End of an Era: Migrating from WordPress](https://www.taniarascia.com/migrating-from-wordpress-to-gatsby/)
+
+**Read:** [Your website system is probably wildly out-of-date](https://callumflack.design/blog/your-website-system-is-probably-wildly-out-of-date).
+
+<!-- If you have a business website that your business relies on as your primary value proposition entry point, then it’s probably [worth reading](https://callumflack.design/blog/your-website-system-is-probably-wildly-out-of-date). Please do share if you think it might save others from another painful website. -->
+
+### Strategy through the lens of conditions and consequences
+
+Designing better systems, choosing the right tools and overcoming bias—all these things start by questioning an initial intention, phrasing a problem statement and coming up with a plan to achieve a set of goals. That is, it’s about strategy.
 
 > Strategy is just another word for being as intentional and well-informed as you are ambitious.
 
-When a decision is required—especially within a business context—actions made towards an end goal help us to _feel good_. But only time (and good feedback, such as the market) will tell us whether we've truly been effective.
+The problem-goal strategic understanding is universal, isn’t it? It’s at least _not wrong_. But what if there were a completely different way to understand strategy?
 
-Stopping to reflect on the tools we're using to take action _slow down action_. Which is why we're biased against doing that. It makes the route longer: from point A we have to detour to point C, where we'll usually discover points D, E and F, and if we continue far enough, we'll realise point A was not α. And suddenly Point B is only β.
+I’ve been doing a reading club on strategy. We read books and pool notes on them. One book that has particularly stood out for me was [“Deciphering Sun Tzu: How To Read ‘The Art Of War’” by Derek M. C. Yuen](https://www.amazon.com/Deciphering-Sun-Tzu-How-Read/dp/0199373515). ‪I've always enjoyed the poetics of ancient Chinese philosophy and, by extension, Zen Buddhism.‬ ‪Whereas friends just didn't get "The Art of War" or "Tao Te Ching", they were obvious & favourable to me on the very first reading.‬ ‪”Deciphering Sun Tzu” helped me understand the poetic paradoxes of ancient Chinese Philosophy as an alternative and coherent strategy to how we’ve been raised to think in Western society. I had some fun condensing and tangentially rewriting the book-club notes into a mutated summary.
 
-Let me repeat:
+> The Western model of Strategy is a rational means–end efficacy. In opposition, the Chinese mode can be described as paradoxical condition–consequence. … Opposed to the means-end mode where a goal leads to direct action in order to achieve a result, the condition-consequence mode is a process which transforms the situation by effects.
 
-> And the end of all our exploring<br> Will be to arrive where we started<br> And know the place for the first time.<br>— T.S. Eliot, Little Gidding
+**Read:** [Notes on "Deciphering Sun Tzu"](https://callumflack.design/blog/notes-on-deciphering-sun-tzu).
 
-At this point, we understand how action can serve as an anaesthetic for thinking. Understanding the problem at hand is usually someone screams "just tell me what to do!" nd when we don't know how to judge whether a system, a method, a workflow or tool
+<!-- By starting with the assumption of an unpredictable future outcome, the condition–consequence mode teaches one not to aim directly, as a first-order goal, but to allow an effect to happen, as a second-order effect.  -->
 
-> Act like a man of thought, think like a man of action
+<!-- Given that the first-order goal is so rarely achieved according to plan, what conditions would you allow for in future? -->
 
-### Setting emotional conditions
+<!-- ### The problem with expertise
 
-Whether a technique, a workflow, or a habit, we design and assess systems—and the tools and habits we use in them—with this same circuit of biases. Attending to our emotional awareness across the spectrum—from acute pain, to unassuming confidence, to a bothersome feeling that keeps nudging us—is all we have to help us judge our decisions before time gives us a result.
+The problem with experts is that it’s quite easy to come across as one. Because we work on gut instinct, we make trust decisions based on the unconscious processing of the expert’s salesmanship—which include their levels of confidence, their fluency of communication, and so on—far more than we’re willing to own up to. -->
 
-Within those emotions are contained all our experience. As I've explained [_The instantaneous language of beauty_](https://callumflack.design/blog/the-instantaneous-language-of-beauty), before we rationalise with verbal language (which is also how we talk to ourselves), we've already gone through a processing stage using emotion.
+### That's a wrap
+
+Hey Callum, I thought you said you were a designer? Where's the cool visuals?
+
+> Although design is often elided with problem solving, the latter is not unique at all. Many vocations solve problems every day, from accountants to mechanics. Engineering is particularly good at it. Design, however, can be focused on the harder process of question asking as much as problem solving. Design’s instinctive reach for synthesis – “how to frame what we can do” – and then visualisation – “what things can be like” – is increasingly understood to be of value in understanding, conveying and communicating.<br>— Dan Hill, [Strategic design for public purpose](https://medium.com/iipp-blog/strategic-design-for-public-purpose-33c3899dba5e)
