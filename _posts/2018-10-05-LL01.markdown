@@ -2,6 +2,8 @@
 layout: post
 title: The thingness of words
 date: 2018-10-05 07:00:00 +1000
+issue_number: LL01
+reading_time: 3
 ---
 
 <img src="/src/assets/LL01-red-leather.jpg" style="width: 100%; height: auto;" class="Image">
@@ -38,7 +40,7 @@ There's something in my Y chromosome that just needs to do this too. To collect 
 
 [Nuxt 2 is out.](https://medium.com/@nuxt_js/nuxt-js-2-0-webpack-4-esm-modules-create-nuxt-app-and-more-6936ce80d94c) For a while there, static site generators were liberating and fun. But for the past 18 months I've been using Vue.js for almost everything (with a little React sprinkled in occassionally). Waiting for page loads on Jekyll sites now feel agonising. Zoom, zoom, Nuxt.js is the future.
 
-[Why Information Grows is my favourite book of the year so far.](https://www.amazon.com/Why-Information-Grows-Evolution-Economies-ebook/dp/B00R3C1V0Q/ref=sr_1_1?s=books&ie=UTF8&qid=1538734670&sr=1-1&keywords=why+information+grows+by+cesar+hidalgo) A Bugatti Veyron sports car sells for $2.5m. After driving it into a wall, it's worthless. Yet all of the atoms in the car would still be there. What has changed is the order of the atoms in the car, which reflects the information embedded in the product. And the product reflects the know-how of its designers and manufacturers. Hidalgo's book helped me understand information theory from the atomic level through to the economic level. Most interestingly, he notes that the products we make are “crystallised imagination”, a phrase that I'm sure will stick in my head for the next few years.
+[Why Information Grows is my favourite book of the year so far.](https://www.amazon.com/Why-Information-Grows-Evolution-Economies-ebook/dp/B00R3C1V0Q/ref=sr_1_1?s=books&ie=UTF8&qid=1538734670&sr=1-1&keywords=why+information+grows+by+cesar+hidalgo) A Bugatti Veyron sports car sells for \$2.5m. After driving it into a wall, it's worthless. Yet all of the atoms in the car would still be there. What has changed is the order of the atoms in the car, which reflects the information embedded in the product. And the product reflects the know-how of its designers and manufacturers. Hidalgo's book helped me understand information theory from the atomic level through to the economic level. Most interestingly, he notes that the products we make are “crystallised imagination”, a phrase that I'm sure will stick in my head for the next few years.
 
 <img src="/src/assets/LL01-a-littoral-line.jpg" style="width: 100%; height: auto;" class="Image">
 
@@ -48,5 +50,4 @@ I think that's enough for today. To close the loop on the idea of "littoral", th
 
 One last thing. I published [a blog post on taste](https://callumflack.design/blog) this week. I think it complements [a post on beauty](https://callumflack.design/blog/the-instantaneous-language-of-beauty) that I wrote a few months ago. I have in mind another about originality and authenticity, which should be a natural extension of these same ideas, but given that the last few posts have taken 500% longer than I anticipated, I'm inclined to start publishing smaller pieces and see how well they compile as a blog. Your thoughts?
 
-Yours in curious syntactic awkwardness,
-Callum
+Yours in curious syntactic awkwardness,<br>Callum
