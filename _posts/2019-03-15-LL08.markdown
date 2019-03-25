@@ -24,7 +24,7 @@ Turns out I'm not the only one who feels the need to tell people about theses ne
 
 > It was as fast, as custom, and as free of plugins as I could possibly make it, but WordPress is cumbersome, and there's only so fast and pleasant to use you can make it.<br>— [The End of an Era: Migrating from WordPress](https://www.taniarascia.com/migrating-from-wordpress-to-gatsby/)
 
-**Read:** [Your website system is probably wildly out-of-date](https://callumflack.design/blog/your-website-system-is-probably-wildly-out-of-date).
+**Read:** [The paradigm shift in website publishing](https://callumflack.design/blog/the-paradigm-shift-in-website-publishing).
 
 <!-- If you have a business website that your business relies on as your primary value proposition entry point, then it’s probably [worth reading](https://callumflack.design/blog/your-website-system-is-probably-wildly-out-of-date). Please do share if you think it might save others from another painful website. -->
 
