@@ -1,0 +1,103 @@
+---
+layout: post
+title: Wealth and expectancy
+date: 2019-04-05 07:00:00 +1000
+issue_number: LL09
+reading_time: 5
+---
+
+<img src="/src/assets/LL09-hero.jpg" alt="Farmyard divisions in play" style="width: 100%; height: auto;" class="Image">
+
+Unlike the last newsletter, this one flowed all too easily. I guess that's what happens when one gets back to reading.
+
+The first three sections are a general theory of my attitude to _work_. Yes, that thing we do during business hours. Why bother? I guess the idea is to create wealth.
+
+And the final section is about how framing: if psychedelics tell us anything, it's that we get what we expect.
+
+**A tiny reminder:** if you find these ideas interesting, please pass them along. You'll be creating wealth.
+
+### The fixed pie fallacy (wealth grows)
+
+> Most economic fallacies derive from the tendency to assume that there is a fixed pie, that one party can gain only at the expense of another.
+— Milton Friedman
+
+Many people falsely believe that the pie can’t be expanded. These people fail to understand the difference between money and wealth. There is a fixed amount of money in the world but there is not a fixed amount of wealth.
+
+<!-- There is no fixed amount of wealth just as there is no a fixed amount of life expectancy. Or literacy. -->
+
+<!-- If you can make more of it, it's probably a form of wealth. -->
+
+Paul Graham gives an apt metaphor in his article ["How to make wealth"](http://www.paulgraham.com/wealth.html):
+
+> Suppose you own a beat-up old car. Instead of sitting on your butt next summer, you could spend the time restoring your car to pristine condition. In doing so you create wealth. The world is-- and you specifically are-- one pristine old car the richer. And not just in some metaphorical way. If you sell your car, you'll get more for it. In restoring your old car you have made yourself richer. You haven't made anyone else poorer. So there is obviously not a fixed pie.
+
+### Wealth is information growth
+
+Given wealth grows rather redistributes existing value, what is the mechanism of creating wealth? In one word: information.
+
+> Information is incorporeal, but it is always physically embodied. Information is not a thing; rather, it is the arrangement of physical things.
+— César Hidalgo, ["Why Information Grows"](https://www.amazon.com/Why-Information-Grows-Evolution-Economies-ebook/dp/B00TT1VLAO)
+
+I'll try to make my argument as simple as possible:
+
+* Information is a physical property of matter. When information is stored in matter, it defeats entropy. This allows order to develop as more information is stored. And so information grows.
+
+* Knowledge is information that is useful to humans. When information is embedded in a product, it enables that product to do useful things.
+
+* All products are embodiments of information in physical matter. It is the information embedded in products and services that gives them their value.
+
+* Therefore, economies grow because information grows. Wealth is created because information grows.
+
+* Economic growth comes primarily from moving to adjacent opportunities in the product space. When information finds new ways to bleed across domains, it creates the conditions for economic growth.
+
+* So we can say wealth equates to information growth. And that economies are embodiments of "crystallised imagination": useful information structures embodied in products.
+
+When ideas are allowed to grow, they create the conditions for wealth. In this way, we can understand why, for example, open source software is so valuable.
+
+Closing off your idea simply closes off growth. Fear and ignorance suppresses the desire for new information. Putting a boundary on knowledge kills it.
+
+### **Craftspeople create wealth**
+
+If we bleed ideas from the previous two paragraphs, then we can say craftspeople create and store information in matter so that it is useful to other people. They have learned some kind of tacit knowhow to perform this work effectively.
+
+It's important here to distinguish between knowledge and knowhow, because they are not the same thing.
+
+Knowledge involves relationships between entities. These relationships are used to predict the outcomes of events without having to act. Knowhow is different because it must be enacted. And one must *know how* to enact.
+
+While you may learn how to see knowledge relationships more effectively, you need to *learn how* to do so. That is, you need to learn *knowhow*.
+
+So we can say that knowhow is a form of tacit knowledge. When a person has great knowhow, what they make is useful to people.
+
+Craftspeople have *learned knowhow*, which they use to create wealth.
+
+> The people most likely to grasp that wealth can be created are the ones who are good at making things, the craftsmen.
+— [Paul Graham](http://www.paulgraham.com/wealth.html)
+
+<img src="/src/assets/LL09-sphere.jpg" alt="A bad Jellyfish trip" style="width: 100%; height: auto;" class="Image">
+
+### The expectancy effect
+
+After a book reading hiatus due to a "fear of not finding the right book" (or spending too much money on Kindle in the process), I'm half way through Michael Pollan's "[How to change your mind](https://www.amazon.com.au/How-Change-Your-Mind-Psychedelics-ebook/dp/B077TCWPKH)". Recommended.
+
+<!-- My biggest takeaway—after the fact that the medicinal properties of psychedelics have perhaps been forgotten (a 70% success rate in reducing alcoholic dependency in the 50s?) before Leary and the counter-culture overwhelmed the term *psychedelic*—is that of the "expectancy effect": psychedelics amplify what we think will happen. So "set and "setting" are of utmost importance for a "good trip". -->
+
+My biggest takeaway so far is that of the _expectancy effect_: psychedelics amplify what we think will happen. "Set and setting" are of utmost importance for a "good trip".
+
+The best analogy I could think of for the expectancy effect is the film "Sphere", where a scientific crew investigates an alien sphere found on the floor of the Pacific Ocean. All of them enter the sphere during the course of events, which has given them the ability to make their imagination real.
+
+In one scene, a diver describes thousands of jellyfish as "beautiful" until they become so numerous that claustrophobia and then panic sets in. Only after panicking do they jellyfish turn lethal. [It's a bad trip!](https://youtu.be/l6cFM5Ubilw)
+
+The expectancy effect reminds me we can't underestimate how we effect situations by the way we frame them. The easiest way to understand this is to change your consciousness. But you don't need to get high or drunk to do this. It's a simple matter of awareness.
+
+Here's a great example of how reframing can lead to new perspective:
+
+> Replace “want” or “need” in a design conversation with “struggles with” and this will reconnect it with reality. Struggle is a context, a vector with two ends, not just a desired state.
+— [Ryan Singer](https://twitter.com/rjs/status/1017109329567240192?s=21)
+
+
+### That's a wrap
+
+Thanks for getting this far down. Please pass this on to anyone you think might find it interesting.
+
+Have a great weekend,<br>
+Callum
