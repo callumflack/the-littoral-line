@@ -16,11 +16,11 @@
                     You can <a href="https://callumflack.design/the-littoral-line" target="_blank">subscribe or read the archives here</a>.
                   </p>
 
-                  {% if jekyll.environment != "production" and page.layout == "post" %}
+                  {%- comment -%} {% if jekyll.environment != "production" and page.layout == "post" %}
                   <p class="u-textCenter">
                     <a href="/">Index</a>
                   </p>
-                  {% endif %}
+                  {% endif %} {%- endcomment -%}
 
                 </td>
               </tr>
