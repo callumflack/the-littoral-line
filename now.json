@@ -1,8 +1,16 @@
 {
   "name": "the-littoral-line",
   "alias": ["thelittoralline.callumflack.design"],
+  "version": 2,
   "env": {
     "NODE_ENV": "production",
     "JEKYLL_ENV": "production"
-  }
+  },
+  "builds": [
+    {
+      "src": "build.sh",
+      "use": "@now/static-build",
+      "config": { "distDir": "_site" }
+    }
+  ]
 }
