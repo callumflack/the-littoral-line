@@ -18,4 +18,4 @@ If there's a problem, start by updating the rub gems with `bundle update`…
 
 See: https://github.com/zeit/now-examples/blob/master/jekyll/build.sh
 
-Ps. You build the site for production with Jekyll using: `JEKYLL_ENV=production jekyll build --future`.
+Ps. you can always run a production build with Jekyll: `JEKYLL_ENV=production jekyll build --future`.
