@@ -197,6 +197,7 @@ blockquote {
   border-left: 2px solid #efefef;
   font-style: italic;
   margin-left: 0;
+  margin-right: 18px;
   padding-left: 18px;
 }
 
