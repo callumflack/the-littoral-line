@@ -46,9 +46,10 @@ ul {
   font-weight: normal;
 }
 
-/* ol, */
+ol,
 ul {
-  list-style: none;
+  /* list-style: none; */
+  padding-left: 16px;
 }
 
 img {
@@ -61,7 +62,7 @@ img {
 }
 
 li {
-  margin-bottom: 0 !important;
+  margin-bottom: 6px !important;
 }
 
 /*
@@ -174,7 +175,8 @@ hr {
 .Image {
   display: block;
   border-radius: 3px;
-  margin-bottom: 24px;
+  margin-top: 40px;
+  margin-bottom: 12px;
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
@@ -194,7 +196,8 @@ h3 {
 blockquote {
   border-left: 2px solid #efefef;
   font-style: italic;
-  padding-left: 15px;
+  margin-left: 0;
+  padding-left: 18px;
 }
 
 a {
