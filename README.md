@@ -19,3 +19,7 @@ If there's a problem, start by updating the rub gems with `bundle update`…
 See: https://github.com/zeit/now-examples/blob/master/jekyll/build.sh
 
 Ps. you can always run a production build with Jekyll: `JEKYLL_ENV=production jekyll build --future`.
+
+### Queue it in Mailchimp
+
+Import the post as HTML via URL to create a campaign in Mailchimp, [like so](https://mailchimp.com/help/import-html-from-url-to-create-a-campaign/).
