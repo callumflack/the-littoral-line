@@ -2,7 +2,7 @@
 
 A newsletter about design, human attention and the web.
 
-So I own my writing, I create a Jekyll web page published to thelittoralline.callumflack.design which is then imported into Mailchimp via URL.
+So I own my writing, I create a Jekyll web page published to [thelittoralline.callumflack.design](https://thelittoralline.callumflack.design) which is then imported into Mailchimp via URL.
 
 ### Localhost
 
