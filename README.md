@@ -8,17 +8,19 @@ So I own my writing, I create a Jekyll web page published to [thelittoralline.ca
 
 If you need to run a draft or a future post locally, run it with the `--draft` or `--future` flags (although I have set `future: true` in config.yml).
 
+I use `JEKYLL_ENV=production` in the layout to turn on and off easy settings when using localhost. This is set in the now. `env` object.
+
 ### Deployment for Now v2
 
-Run `now` from the project root.
+Run `now` from the project root. This uses the `build/sh` file.
 
-I use `JEKYLL_ENV=production` in the layout to turn on and off easy settings when using localhost. This is set in the now. `env` object.
+More info: https://github.com/zeit/now-examples/blob/master/jekyll/build.sh
 
 If there's a problem, start by updating the rub gems with `bundle update`…
 
-See: https://github.com/zeit/now-examples/blob/master/jekyll/build.sh
+This means that I can write _directly here in Github_ and Now will publish the commit, from which I can use the resulting post URL for a newsletter edition.
 
-Ps. you can always run a production build with Jekyll: `JEKYLL_ENV=production jekyll build --future`.
+Note that you can always run a production build with Jekyll: `JEKYLL_ENV=production jekyll build --future`.
 
 ### Queue it in Mailchimp
 
