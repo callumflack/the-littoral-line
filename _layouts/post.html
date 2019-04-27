@@ -6,20 +6,20 @@ layout: default
   <tbody>
     <tr>
       <td class="Container">
-        <div class="Content">
+        <div class="Content Content--post">
 
           <table>
             <tbody>
               <tr>
                 <td>
 
-                  <div class="u-textCenter b-pb1">
+                  <div class="b-pb1">
                     <a href="https://callumflack.design/" target="_blank"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></a>
                   </div>
-                  <h1 class="Title u-textCenter">{{ page.title }}</h1>
-                  <h2 class="fs-text-sm u-textCenter c-gray {% if page.issue_number %}space-1x4{% else %}space-2{% endif %}">
+                  <h1 class="Title">{{ page.title }}</h1>
+                  <h2 class="fs-text-sm c-gray {% if page.issue_number %}space-1x4{% else %}space-2{% endif %}">
                     {% if page.issue_number %}
-                    {{ page.issue_number}} &nbsp;•&nbsp; 
+                    {{ page.issue_number}} &nbsp;•&nbsp;
                     {% endif %}
 
                     {%- comment -%} https://learn.cloudcannon.com/jekyll/date-formatting/ {%- endcomment -%}
@@ -33,12 +33,12 @@ layout: default
                     {{ page.date | date: "%B, %Y" }}
 
                     {% if page.issue_number %}
-                    &nbsp;•&nbsp;{{ page.reading_time }} minutes
+                    &nbsp;•&nbsp; {{ page.reading_time }} minutes
                     {% endif %}
                   </h2>
 
                   {% if page.issue_number != null %}
-                    <p class="fs-text-sm u-textCenter c-gray space-2">Just visiting? <a href="https://callumflack.design/the-littoral-line">Subscribe to The Littoral Line.</a></p>
+                    <p class="fs-text-sm c-gray space-2">Just visiting? <a href="https://callumflack.design/the-littoral-line">Subscribe to The Littoral Line.</a></p>
                   {% endif %}
 
                   {{ content }}

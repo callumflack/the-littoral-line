@@ -14,12 +14,14 @@ The first three sections are a general theory of my attitude to _work_. Yes, tha
 
 And the final section is about how framing: if psychedelics tell us anything, it's that we get what we expect.
 
-**A tiny reminder:** if you find these ideas interesting, please pass them along. You'll be creating wealth.
+<p class="c-highlight">
+<strong>A tiny reminder:</strong> if you find these ideas interesting, please pass them along. You'll be creating wealth.
+</p>
 
 ### The fixed pie fallacy (wealth grows)
 
 > Most economic fallacies derive from the tendency to assume that there is a fixed pie, that one party can gain only at the expense of another.
-— Milton Friedman
+<span>Milton Friedman</span>
 
 Many people falsely believe that the pie can’t be expanded. These people fail to understand the difference between money and wealth. There is a fixed amount of money in the world but there is not a fixed amount of wealth.
 
@@ -36,7 +38,7 @@ Paul Graham gives an apt metaphor in his article ["How to make wealth"](http://w
 Given wealth grows rather redistributes existing value, what is the mechanism of creating wealth? In one word: information.
 
 > Information is incorporeal, but it is always physically embodied. Information is not a thing; rather, it is the arrangement of physical things.
-— César Hidalgo, ["Why Information Grows"](https://www.amazon.com/Why-Information-Grows-Evolution-Economies-ebook/dp/B00TT1VLAO)
+<span>César Hidalgo, ["Why Information Grows"](https://www.amazon.com/Why-Information-Grows-Evolution-Economies-ebook/dp/B00TT1VLAO)<span>
 
 I'll try to make my argument as simple as possible:
 
@@ -71,7 +73,7 @@ So we can say that knowhow is a form of tacit knowledge. When a person has great
 Craftspeople have *learned knowhow*, which they use to create wealth.
 
 > The people most likely to grasp that wealth can be created are the ones who are good at making things, the craftsmen.
-— [Paul Graham](http://www.paulgraham.com/wealth.html)
+<span>[Paul Graham](http://www.paulgraham.com/wealth.html)</span>
 
 <img src="/src/assets/LL09-sphere.jpg" alt="A bad Jellyfish trip" style="width: 100%; height: auto;" class="Image">
 
@@ -92,7 +94,7 @@ The expectancy effect reminds me we can't underestimate how we effect situations
 Here's a great example of how reframing can lead to new perspective:
 
 > Replace “want” or “need” in a design conversation with “struggles with” and this will reconnect it with reality. Struggle is a context, a vector with two ends, not just a desired state.
-— [Ryan Singer](https://twitter.com/rjs/status/1017109329567240192?s=21)
+<span>[Ryan Singer](https://twitter.com/rjs/status/1017109329567240192?s=21)</span>
 
 
 ### That's a wrap

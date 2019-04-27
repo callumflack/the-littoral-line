@@ -2,12 +2,13 @@ html,
 table {
   box-sizing: border-box;
   background-color: #fff;
-  color: #000;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #111;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 1.5;
+  line-height: 1.45;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -20,11 +21,6 @@ table {
 *:before,
 *:after {
   box-sizing: inherit;
-}
-
-table,
-body {
-  font-size: 18px;
 }
 
 table {
@@ -58,11 +54,15 @@ img {
 }
 
 * + * {
-  margin-bottom: 16px !important;
+  margin-bottom: 12px !important;
 }
 
 li {
   margin-bottom: 6px !important;
+}
+
+article:last-of-type {
+  margin-bottom: 0 !important;
 }
 
 /*
@@ -76,7 +76,7 @@ li {
 }
 
 .space-1x2 {
-  margin-bottom: 16px !important;
+  margin-bottom: 12px !important;
 }
 
 .space-2 {
@@ -104,6 +104,11 @@ hr {
 }
 
 .b-py2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.b-py25 {
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -117,15 +122,29 @@ hr {
 }
 
 .b-pb2 {
+  padding-bottom: 32px;
+}
+
+.b-pb25 {
   padding-bottom: 48px;
 }
 
-.fs-text-sm {
-  font-size: 15px;
+.b-mb2 {
+  margin-bottom: 32px !important;
 }
 
+.m-b0 {
+  margin-bottom: 0 !important;
+}
+
+.fs-text-sm {
+  font-size: 13px;
+}
+
+table,
+body,
 .fs-text {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .u-textCenter {
@@ -135,6 +154,13 @@ hr {
 .c-gray,
 .c-gray a {
   color: #888;
+}
+
+.c-highlight,
+.c-highlight a {
+  color: #DFAB01;
+  color: #0B6E99;
+  font-style: italic;
 }
 
 /*
@@ -151,32 +177,32 @@ hr {
 }
 
 .Content {
-  padding: 15px;
-  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   max-width: 600px;
   margin: 0 auto;
   display: block;
 }
 
 .Title {
-  font-size: 40px;
+  font-size: 32px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 1;
-  margin-bottom: 12px !important;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  margin-bottom: 8px !important;
 }
 
 .Title a {
-  color: #000;
+  color: #111;
   text-decoration: none;
 }
 
 .Image {
   display: block;
   border-radius: 3px;
-  margin-top: 40px;
-  margin-bottom: 12px;
+  margin-top: 42px;
+  margin-bottom: 18px;
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
@@ -184,25 +210,38 @@ hr {
 }
 
 h3 {
-  color: #000;
-  font-size: 20px;
-  font-weight: 900;
-  font-weight: bold;
-  margin-top: 40px;
+  color: #111;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 42px;
   text-transform: none;
   text-align: left;
 }
 
 blockquote {
   border-left: 2px solid #efefef;
+  color: #888;
   font-style: italic;
-  margin-left: 0;
+  margin: 0;
   margin-right: 18px;
   padding-left: 18px;
 }
 
+blockquote span {
+  font-style: normal;
+  display: table;
+}
+
 a {
   color: red;
+}
+
+.Content--post a {
+  text-decoration: none;
+}
+
+p strong {
+  font-weight: 600;
 }
 
 code {

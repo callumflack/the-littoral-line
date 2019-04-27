@@ -5,18 +5,18 @@ layout: default
 <div class="Container">
   <div class="Content">
 
-    <div class="u-textCenter b-pb1"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></div>
+    <div class="b-mb2"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></div>
 
     {% for post in site.posts %}
-      <article>
-        <h1 class="Title u-textCenter">
+      <article class="b-mb2">
+        <h1 class="Title">
           {% if site.env == "production" %}
             <a href="https://thelittoralline.callumflack.design{{ post.url }}">{{ post.title }}</a>
           {% else %}
             <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
           {% endif %}
         </h1>
-        <h2 class="fs-text-sm u-textCenter c-gray {% if post.issue_number %}space-1x4{% else %}space-2{% endif %}">
+        <h2 class="fs-text-sm c-gray {% if post.issue_number %}space-1x4{% else %}space-2{% endif %}">
             {% if post.issue_number %}
             {{ post.issue_number}} &nbsp;•&nbsp;
             {% endif %}
