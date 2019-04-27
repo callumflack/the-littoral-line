@@ -2,7 +2,9 @@
 
 A newsletter about design, human attention and the web.
 
-So I own my writing, I create a Jekyll web page published to [thelittoralline.callumflack.design](https://thelittoralline.callumflack.design) which is then imported into Mailchimp via URL.
+So I own my writing, I create a website of posts published to [thelittoralline.callumflack.design](https://thelittoralline.callumflack.design) which is then imported into Mailchimp via URL.
+
+Because the best writing tool for the web is markdown, I'm using I'm using Jekyll. There are other tools (MDX!) but none allow me to keep the simplicity of an old school CSS file. And I have some old projects on Jekyll, so I need to keep my hand in it.
 
 ### Localhost
 
