@@ -18,7 +18,7 @@ I use `JEKYLL_ENV=production` in the layout to easily turn on and off settings w
 
 A `now` webhook is set-up for this repo. You can also run `now` from the project root. This process is configured in `now.json` and uses the `build.sh` file in the project root.
 
-Read more abbout deploying Jekyll with Now [here](https://github.com/zeit/now-examples/blob/master/jekyll/build.sh).
+Read more about deploying Jekyll with Now [here](https://github.com/zeit/now-examples/blob/master/jekyll/build.sh).
 
 If there's a problem, start by updating the rub gems with `bundle update`…
 
