@@ -186,12 +186,9 @@ body,
 
 .Headline,
 .Title {
-  font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: -0.015em;
-  line-height: 1.2;
-  margin-bottom: 8px !important;
 }
 
 .Headline a,
@@ -200,8 +197,17 @@ body,
   text-decoration: none;
 }
 
+.Title {
+  font-size: 40px;
+  line-height: 1.05;
+  margin-bottom: 16px !important;
+
+}
+
 .Headline {
   font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 8px !important;
 }
 
 .Image {
