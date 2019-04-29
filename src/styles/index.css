@@ -184,8 +184,9 @@ body,
   display: block;
 }
 
+.Headline,
 .Title {
-  font-size: 32px;
+  font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -193,20 +194,26 @@ body,
   margin-bottom: 8px !important;
 }
 
+.Headline a,
 .Title a {
   color: #111;
   text-decoration: none;
 }
 
+.Headline {
+  font-size: 32px;
+}
+
 .Image {
-  display: block;
+  border: 1px solid #e6e6e6;
   border-radius: 3px;
+  display: block;
+  height: auto !important;
   margin-top: 42px;
   margin-bottom: 18px;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
   max-height: auto !important;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 h3 {
@@ -219,7 +226,7 @@ h3 {
 }
 
 blockquote {
-  border-left: 2px solid #efefef;
+  border-left: 2px solid #e6e6e6;
   color: #888;
   font-style: italic;
   margin: 0;
@@ -236,7 +243,7 @@ a {
   color: red;
 }
 
-.Content--post a {
+.Content-post a {
   text-decoration: none;
 }
 
@@ -244,6 +251,33 @@ p strong {
   font-weight: 600;
 }
 
+/*
+
+  Code blocks
+
+ */
+
+pre {
+  border: 1px solid #e6e6e6;
+  border-left-width: 5px;
+  /* font-size: .88888em; */
+  margin: 0 0 12px;
+  overflow-x: auto;
+  padding: 1.25em;
+  white-space: pre;
+}
+
 code {
-  font-family: "Courier New", "Consolas", "Andale Mono", "Lucida San Typewriter", "Lucida Console";
+  color: #EB5757;
+  color: #111;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 85%;
+  font-weight: 500;
+}
+
+p code {
+  background: rgba(135,131,120,0.15);
+  line-height: normal;
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
 }
