@@ -12,7 +12,7 @@ Because the best writing tool for the web is markdown, I'm using Jekyll to build
 
 If you need to run a draft or a future post locally, run it with the `--draft` or `--future` flags (although I have set `future: true` in config.yml).
 
-I use `JEKYLL_ENV=production` in the layout to easily turn on and off settings when using localhost. This is set in the `.env` object.
+I use `JEKYLL_ENV=production` in the layout to easily turn on and off settings when using localhost. This is set in the `.env` object within `now.json`.
 
 ### Deployment for Now v2
 
