@@ -6,6 +6,8 @@ So I own my writing, I create a website of posts published to [thelittoralline.c
 
 Because the best writing tool for the web is markdown, I'm using Jekyll to build the site. There are other tools (MDX!) but none allow me to keep the simplicity of an old school CSS file. And I have some old projects on Jekyll, so I need to keep my hand in it.
 
+If you're interested in why I went to all this bother instead of simply writing in a platform, [read my blog post](https://callumflack.design/blog/how-to-publish-your-newsletter-so-you-own-your-writing).
+
 ## The newsletter writing process
 
 ### Localhost
