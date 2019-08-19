@@ -201,7 +201,6 @@ body,
   font-size: 40px;
   line-height: 1.05;
   margin-bottom: 16px !important;
-
 }
 
 .Headline {
@@ -257,16 +256,38 @@ p strong {
   font-weight: 600;
 }
 
+@media (max-width: 512px) {
+  table,
+  body,
+  .fs-text {
+    font-size: 15px;
+  }
+
+  .Title {
+    font-size: 32px;
+  }
+
+  .Headline {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
 /*
 
   Code blocks
+  See: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
 
  */
 
 pre {
   border: 1px solid #e6e6e6;
   border-left-width: 5px;
-  /* font-size: .88888em; */
+  font-size: 100%;
+  font-weight: 500;
   margin: 0 0 12px;
   overflow-x: auto;
   padding: 1.25em;
@@ -277,13 +298,41 @@ code {
   color: #EB5757;
   color: #111;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  font-size: 85%;
-  font-weight: 500;
+  line-height: normal;
 }
 
-p code {
-  background: rgba(135,131,120,0.15);
-  line-height: normal;
-  border-radius: 3px;
-  padding: 0.2em 0.4em;
+code, kbd, samp {
+  font-size: 0.85em;
+}
+
+/* @media (max-width: 360px) {
+  pre {
+    max-width: calc(360px - 42px);
+  }
+}
+@media (max-width: 375px) {
+  pre {
+    max-width: calc(375px - 42px);
+  }
+}
+@media (max-width: 411px) {
+  pre {
+    max-width: calc(411px - 42px);
+  }
+}
+@media (max-width: 414px) {
+  pre {
+    max-width: calc(414px - 42px);
+  }
+}
+@media (min-width:415px) and (max-width: 767px) {
+  pre {
+    width: 100%;
+    width: calc(100vw - 42px - 15px);
+  }
+} */
+@media (max-width: 767px) {
+  pre {
+    width: calc(100vw - 42px);
+  }
 }
