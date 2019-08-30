@@ -249,6 +249,7 @@ a {
 }
 
 .Content-post a {
+  display: inline;
   text-decoration: none;
 }
 
