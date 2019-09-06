@@ -4,7 +4,8 @@ table {
   background-color: #fff;
   color: #111;
   /* font-family: Georgia, "Times New Roman", Times, serif; */
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
@@ -158,8 +159,8 @@ body,
 
 .c-highlight,
 .c-highlight a {
-  color: #DFAB01;
-  color: #0B6E99;
+  color: #dfab01;
+  color: #0b6e99;
   font-style: italic;
 }
 
@@ -186,9 +187,9 @@ body,
 
 .Headline,
 .Title {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.015em;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  letter-spacing: -0.02em;
 }
 
 .Headline a,
@@ -199,12 +200,14 @@ body,
 
 .Title {
   font-size: 40px;
+  font-weight: 600;
   line-height: 1.05;
   margin-bottom: 16px !important;
 }
 
 .Headline {
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 8px !important;
 }
@@ -269,7 +272,7 @@ p strong {
   }
 
   .Headline {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   h3 {
@@ -296,13 +299,15 @@ pre {
 }
 
 code {
-  color: #EB5757;
+  color: #eb5757;
   color: #111;
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   line-height: normal;
 }
 
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-size: 0.85em;
 }
 
