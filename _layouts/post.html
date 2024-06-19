@@ -7,49 +7,47 @@ layout: default
     <tr>
       <td class="Container">
         <div class="Content">
-
           <table>
             <tbody>
               <tr>
                 <td>
-
                   <div class="b-pb1">
-                    <a href="https://callumflack.design/" target="_blank"><img src="/src/assets/LL-logo-24.png" height="auto" width="24"></a>
+                    <a href="/"
+                      ><img
+                        src="/src/assets/LL-logo-24.png"
+                        height="auto"
+                        width="24"
+                    /></a>
                   </div>
                   <h1 class="Title">{{ page.title }}</h1>
-                  <h2 class="fs-text-sm c-gray {% if page.issue_number %}space-1x4{% else %}space-2{% endif %}">
-                    {% if page.issue_number %}
-                    {{ page.issue_number}} &nbsp;•&nbsp;
-                    {% endif %}
-
-                    {%- comment -%} https://learn.cloudcannon.com/jekyll/date-formatting/ {%- endcomment -%}
-                    {% assign day = page.date | date: "%-d"  %}
-                    {% case day %}
-                      {% when '1' or '21' or '31' %}{{ day }}st
-                      {% when '2' or '22' %}{{ day }}nd
-                      {% when '3' or '23' %}{{ day }}rd
-                      {% else %}{{ day }}th
-                    {% endcase %}
-                    {{ page.date | date: "%B, %Y" }}
-
-                    {% if page.issue_number %}
-                    &nbsp;•&nbsp; {{ page.reading_time }} minutes
-                    {% endif %}
+                  <h2
+                    class="fs-text-sm c-gray {% if page.issue_number %}space-1x4{% else %}space-2{% endif %}"
+                  >
+                    {% if page.issue_number %} {{ page.issue_number}}
+                    &nbsp;•&nbsp; {% endif %} {%- comment -%}
+                    https://learn.cloudcannon.com/jekyll/date-formatting/ {%-
+                    endcomment -%} {% assign day = page.date | date: "%-d" %} {%
+                    case day %} {% when '1' or '21' or '31' %}{{ day }}st {%
+                    when '2' or '22' %}{{ day }}nd {% when '3' or '23' %}{{ day
+                    }}rd {% else %}{{ day }}th {% endcase %} {{ page.date |
+                    date: "%B, %Y" }} {% if page.issue_number %} &nbsp;•&nbsp;
+                    {{ page.reading_time }} minutes {% endif %}
                   </h2>
 
                   {% if page.issue_number != null %}
-                    <p class="fs-text-sm c-gray space-2">Just visiting? <a href="https://callumflack.design/the-littoral-line.html">Subscribe to The Littoral Line.</a></p>
+                  <p class="fs-text-sm c-gray space-2">
+                    Just visiting?
+                    <a href="https://callumflack.design/the-littoral-line.html"
+                      >Subscribe to The Littoral Line.</a
+                    >
+                  </p>
                   {% endif %}
 
-                  <div class="Content-post">
-                    {{ content }}
-                  </div>
-
+                  <div class="Content-post">{{ content }}</div>
                 </td>
               </tr>
             </tbody>
           </table>
-
         </div>
       </td>
     </tr>
